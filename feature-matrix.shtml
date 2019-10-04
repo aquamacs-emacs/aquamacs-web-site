@@ -1,0 +1,389 @@
+<!--#include virtual="top.shtml" -->
+
+  <div id="Content">
+
+    <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->
+
+    <h1>Feature Matrix</h1>
+
+    <p>From the modern dock icon to the apple services support to the ability to use all of your fonts and shortcuts; this is a modern Mac OS X application.
+    </p>
+    <p><center><img class="framedImage" src="images/dock.png"></center></p>
+    <br clear=all>
+<p>
+    How does Aquamacs fare compared to other editors? Here's what
+    Aquamacs can and cannot do compared to some popular editors on the Mac.
+    </p>
+    
+    <table class="featureMatrix">
+      <tr><td class="topleft" valign="top" colspan="2" rowspan="1">Feature</td>
+      <td valign="top" class="product1">Aquamacs Emacs</td>
+      <td valign="top" class="product1">GNU Emacs 22</td>
+      <td valign="top" class="product1">BBEdit 8.0</td>
+      <td valign="top" class="product1">Smultron</td>
+    </tr>
+
+    <tr>
+      <td class="feature1" valign="top" rowspan="2">Copy &amp; Paste</td>
+      <td class="feature2">X11/Unix-like</td
+      <td class="value" valign="center">&nbsp;</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center">&nbsp;</td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+    
+    <tr>
+      <td class="feature2">Mac-like</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center">&nbsp;</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+
+
+    <tr>
+      <td class="feature1" valign="top" rowspan="2">Syntax Coloring</td>
+      <td class="feature2">Major languages like C and XML</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+    <tr>
+      <td class="feature2">Exotic languages like Prolog</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center">&nbsp;</td>
+      <td class="value" valign="center">&nbsp;</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+
+
+    <tr>
+      <td class="feature1" valign="top" rowspan="2">Printing</td>
+      <td class="feature2">WYSIWYG</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+    <tr>
+      <td class="feature2">Postscript</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+
+    <tr>
+      <td class="feature1" colspan="2">Code folding</td>
+      <td class="value" valign="center">(outline mode)</td>
+      <td class="value" valign="center">(outline mode)</td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+      <td class="feature1" colspan="2">Free use of all fonts</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+
+    <tr>
+      <td class="feature1" colspan="2">HTML Support</td>
+      <td class="value" valign="center">good</td>
+      <td class="value" valign="center">ok</td>
+      <td class="value" valign="center">great</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+
+    <tr>
+      <td class="feature1" colspan="2">LaTeX Support</td>
+      <td class="value" valign="center">very good</td>
+      <td class="value" valign="center">decent</td>
+      <td class="value" valign="center">basic</td>
+      <td class="value" valign="center">basic</td>
+    </tr>
+
+    <tr>
+      <td class="feature1" colspan="2">Reformatting / Indenting (syntax based)</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+      <td class="feature1" colspan="2">Auto-complete phrases ("Code Sense")</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/quest.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+
+    <tr>
+      <td class="feature1" valign="top" rowspan="2">Color Themes</td>
+      <td class="feature2">Supported</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td><td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+    <tr>
+
+      <td class="feature2">predefined sets</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td><td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+
+    <tr>
+
+      <td class="feature1" valign="top" rowspan="2">Exports to</td>
+      <td class="feature2">PDF</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center">via Print</td><td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+    <tr>
+
+      <td class="feature2">HTML</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+
+    <tr>
+      <td class="feature1" colspan="2">Unix Shell Support</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+
+      <td class="feature1" valign="top" rowspan="3">Tool Bar</td>
+      <td class="feature2">Supported</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+    <tr>
+
+      <td class="feature2">Individually switchable</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+    <tr>
+
+      <td class="feature2">Mode/language-specific</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+
+    <tr>
+
+      <td class="feature1" colspan="2">Help / Documentation</td>
+      <td class="value" valign="center">Apple Help, PDF, info</td>
+      <td class="value" valign="center">only info, PDF online</td>
+      <td class="value" valign="center">Apple Help (some), PDF</td>
+      <td class="value" valign="center">Apple Help (basic)</td>
+    </tr>
+
+    <tr>
+
+      <td class="feature1" colspan="2">Compare and Merge</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+
+      <td class="feature1" colspan="2">Search &amp; Replace: Regular Expressions</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+
+    <tr>
+
+      <td class="feature1" colspan="2">Scriptable? Macro-Language?</td>
+      <td class="value" valign="center">fully (elisp)</td>
+      <td class="value" valign="center">fully (elisp)</td>
+      <td class="value" valign="center">partially (AppleScript)</td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+
+      <td class="feature1" colspan="2">Version Control</td>
+      <td class="value" valign="center">CVS, SVN, Git</td>
+      <td class="value" valign="center">CVS, SVN</td>
+      <td class="value" valign="center">CVS, SVN</td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+
+      <td class="feature1" colspan="2">Multi-Language Input Methods</td>
+      <td class="value" valign="center">native, Emacs</td>
+      <td class="value" valign="center">native, Emacs</td>
+      <td class="value" valign="center">native</td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+
+      <td class="feature1" valign="top" rowspan="3">Multiple Buffers per Window</td>
+      <td class="feature2">Supported</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+    <tr>
+
+      <td class="feature2">Tabbed Editing</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+    <tr>
+
+      <td class="feature2">Window per file</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+
+
+    <tr>
+
+      <td class="feature1" colspan="2">Saves cursor position in file persistently</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+
+      <td class="feature1" colspan="2">Customizability</td>
+      <td class="value" valign="center">extensive, often hard</td>
+      <td class="value" valign="center">extensive, almost always hard</td>
+      <td class="value" valign="center">some, easy</td>
+      <td class="value" valign="center">basic, easy</td>
+    </tr>
+
+    <tr>
+
+      <td class="feature1" colspan="2">Cross-Platform</td>
+      <td class="value" valign="center">subset</td>
+      <td class="value" valign="center">fully</td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+
+      <td class="feature1" colspan="2">Spell-Checking</td>
+      <td class="value" valign="center">ispell, aspell (installer package)</td>
+      <td class="value" valign="center">ispell, aspell (manual install)</td>
+      <td class="value" valign="center">OS X native</td>
+      <td class="value" valign="center">OS X native</td>
+    </tr>
+
+    <tr>
+      <td class="feature1" valign="top" rowspan="5">Overall</td>
+      <td class="feature2">Features</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+    <tr>
+
+      <td class="feature2">Ease of Use for Novices</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+
+    <tr>
+      <td class="feature2">Extensibility</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+      <td class="feature2">Compliance with Mac UI</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+    </tr>
+    <tr>
+      <td class="feature2">Compliance with Emacs UI</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center">N/A</td>
+      <td class="value" valign="center">N/A</td>
+    </tr>
+
+
+    <tr>
+      <td class="feature1" colspan="2">Built-in Shrink :-)</td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/plus.jpg"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+      <td class="value" valign="center"><img valign="top" src="images/minus.png"></td>
+    </tr>
+
+    <tr>
+      <td class="feature1" colspan="2">Price</td>
+      <td class="value" valign="center">free, donation USD$/&euro;20</td>
+      <td class="value" valign="center">free</td>
+      <td class="value" valign="center">USD$199</td>
+      <td class="value" valign="center">free</td>
+    </tr>
+
+    <tr>
+      <td class="feature1" colspan="2">License / Source</td>
+      <td class="value" valign="center">GPL</td>
+      <td class="value" valign="center">GPL</td>
+      <td class="value" valign="center">closed source</td>
+      <td class="value" valign="center">GPL</td>
+    </tr>
+
+  </table>
+  
+    <br><p>
+Note: This table is obviously subjective. If you have suggestions,
+please subscribe and write to the <a
+href="http://lists.sourceforge.net/lists/listinfo/aquamacs-devel">Aquamacs
+mailing list</a>. There is also a noteworthy <a href="http://en.wikipedia.org/wiki/Comparison_of_text_editors">comparative review of
+text editors at Wikipedia.</a>
+<p>
+
+  
+ <!--#include virtual="bottom.shtml" -->
+

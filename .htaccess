@@ -1,0 +1,45 @@
+Options +Includes
+
+RewriteEngine on 
+ 
+RewriteRule ^donate$		http://aquamacs.org/donations.shtml   [R,L]
+RewriteRule ^subscribe-to-support-mailing-list$			      http://email.esm.psu.edu/mailman/listinfo/macosx-emacs  [R,L]
+
+RewriteRule ^fKeys$		http://www.kodachi.com/fKeys/ [R,L]
+RewriteRule ^emacs-authors$	http://cvs.savannah.gnu.org/viewcvs/*checkout*/emacs/AUTHORS?root=emacs [R,L]
+
+# called via "Download Spell-checking" menu item
+# RewriteRule ^spellchecking$ 	http://cocoaspell.leuski.net/ [R,L]
+# no longer available
+
+
+RewriteCond %{HTTP_HOST}  ^www\..*
+RewriteRule ^(.*)$		http://aquamacs.org/$1	[R,L]
+
+
+RewriteRule downloads.shtml	 http://aquamacs.org/download.shtml		[R]
+RewriteRule latex.html		 http://aquamacs.org/latex.shtml		[R]
+RewriteRule development.html	 http://aquamacs.org/development.shtml		[R]
+RewriteRule documentation.html	 http://aquamacs.org/documentation.shtml		[R]
+RewriteRule features.html	 http://aquamacs.org/features.shtml		[R]
+RewriteRule support.html	 http://aquamacs.org/support.shtml		[R]
+RewriteRule nightlies.html	 http://aquamacs.org/nightlies.shtml		[R]
+RewriteRule nightlies-download.s?html	 http://aquamacs.org/nightlies.shtml		[R]
+
+RewriteRule CVS/?$                       http://aquamacs.org    [R]
+
+RewriteCond %{HTTP_USER_AGENT}  (PPC)
+RewriteRule download-release.shtml         download-release-ub.shtml          [R=302]
+
+RewriteRule download-release.shtml         https://github.com/davidswelt/aquamacs-emacs/releases/download/Aquamacs-3.5/Aquamacs-Emacs-3.5.dmg     [L,R=302]
+RewriteRule download-release-ub.shtml         https://github.com/davidswelt/aquamacs-emacs-pre2015/releases/download/Aquamacs-2.4/Aquamacs-Emacs-2.4-UB.dmg          [L,R=302]
+
+RewriteRule download-classic.shtml         https://github.com/davidswelt/aquamacs-emacs-pre2015/releases/download/Aquamacs-2.5-final/Aquamacs-Emacs-2.5.dmg     [L,R=302]
+
+#Here we assume certain MSIE 6.0 agents are from linkscanner
+#redirect these requests back to avg in the hope they'll see their silliness
+#Rewritecond %{HTTP_USER_AGENT} ".*MSIE 6.0; Windows NT 5.1; SV1.$" [OR]
+#Rewritecond %{HTTP_USER_AGENT} ".*MSIE 6.0; Windows NT 5.1;1813.$"
+#RewriteCond %{HTTP_REFERER} ^$
+#RewriteCond %{HTTP:Accept-Encoding} ^$
+#RewriteRule ^.* http://www.avg.com/?LinkScannerSucks [R=307,L]

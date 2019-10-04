@@ -1,0 +1,24 @@
+<!--#include virtual="top.shtml" -->
+  <div id="Content">
+
+    <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->
+    <h1>Support the Aquamacs Project</h1>
+
+    <h2>Your subscription was successful.  You can always modify it
+    <a href="donations-subscription.shtml">here</a>.  That link is also available directly on the Aquamacs homepage.</h2>
+    
+<h2>Should you ever wish to cancel your subscription...</h2>
+
+<p> Log into <a href="http://www.paypal.com">PayPal</a> and click on
+settings (top right), then "pre-approved payments" (bottom right).
+You will find all your subscriptions there.</p>
+(Apologies - there is no more direct way to cancel a subscription, but
+you can always choose a smaller amount using the form above.)
+
+    
+    </div>
+
+<!--#include virtual="bottom.shtml" -->
+
+
+    

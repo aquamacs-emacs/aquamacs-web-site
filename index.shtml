@@ -1,0 +1,51 @@
+<!--#include virtual="top.shtml" -->
+  <div id="Content">
+<!-- ANOTHER TEST -->
+    <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->
+    <h1 style="font-size:200%;">The Emacs for the Mac</h1>
+
+    <div class="indexFeatureList">
+    <span class="title_big">An Editor for Text, HTML, LaTeX, </span><span class="title_regular">C++, Java, Python, </span><span class="title_small">R, Perl, Ruby, PHP, </span><span class="title_tiny">and more...</span>
+    <p>
+    Aquamacs is a modern editor based on GNU Emacs. <a href="/about.shtml">Read More</a>
+    </p>
+
+    <div class="homedownload">
+      <!--#if expr='("${HTTP_USER_AGENT}"=~/PowerPC/) || ("${HTTP_USER_AGENT}" =~ /i386/)' --> 
+<a href="http://aquamacs.org/download-release-ub.shtml">
+        <img src="images/download-48.png" border=0>Download
+      Version 2.4 (Universal Binary) for Mac OS X</a>
+      <!--#else-->
+<a href="http://aquamacs.org/download-release.shtml">
+        <img src="images/download-48.png" border=0>Download
+      Version 3.5 for Mac OS X</a>
+      <!--#endif-->
+    </div>
+    <div class="homess"><a style="border:0;" href="images/large-screenshot-dark.png"
+        target="ss_extra" alt="Click for a large Aquamacs screenshot">
+      <img  src="images/large-screenshot-dark.png"
+      width=792 height=594 border=0  title="Click for a large Aquamacs screenshot"></a></div>
+    </div>
+
+  <div id="News">
+    <h1>Project News</h1>
+         <strong>Aquamacs 3.5 released -- Mandatory update for macOS Mojave (macOS 10.14)</strong>
+ <small class="date">2019-08-18</small>
+    <br />Aquamacs 3.5 has <a href="download.shtml">been
+    released</a>.  
+         <strong>Aquamacs 3.4 released</strong>
+ <small class="date">2018-07-27</small>
+    <br />Aquamacs 3.4 is based on Emacs 25.3 and the latest versions of many packages.  It is compatible with macOS 10.12 Sierra and comes with some critical improvements.
+Download <a href="http://aquamacs.org/download.shtml">here</a>.
+<br />
+
+         <strong>Aquamacs 3.3 released</strong>
+ <small class="date">2016-09-20</small>
+    <br />Aquamacs 3.3 is based on Emacs 25.1.  It is compatible with macOS 10.12 Sierra
+and comes with many improvements.
+<br />
+
+ </div>
+
+
+ <!--#include virtual="bottom.shtml" -->

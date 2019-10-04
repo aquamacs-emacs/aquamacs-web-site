@@ -1,0 +1,106 @@
+
+<!--#include virtual="top.shtml" -->
+  <div id="Content">
+    <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->
+    <h1>Development</h1>
+
+    <p>Development of the Aquamacs distribution is ongoing; the
+    user interface is far from complete. In particular, such items
+    as configuration systems, sliders and the mini-windows inside
+    the windows will need further work. We welcome contributions
+    from the community, whether they are elisp code that improves
+    OS X UI compatibility, or patches to the mac-specific C code,
+    which would be too early to submit for inclusion in the main
+    Emacs development branch.</p>
+
+  <h2>Mailing lists</h2>
+
+    
+    <p>Interested in Aquamacs? Subscribe and post to
+    our <a href=
+    "http://lists.aquamacs.org/mailman/listinfo.cgi/aquamacs-devel">developer
+    mailing list</a> with development questions, comments, and
+    contributions.</p>
+
+    The following mailing lists are available:
+    <ul>
+      
+      <li><a href="http://groups.google.com/group/aquamacs-devel">Aquamacs-devel</a>: for developer discussion (subscription required to post)
+      <li><a href="http://email.esm.psu.edu/mailman/listinfo/macosx-emacs" >Emacs on OSX</a> (<a href="http://news.gmane.org/gmane.emacs.macintosh.osx">Archives</a>): for support questions from and interaction with users (subscription required to post)
+     </ul>
+    All mailing lists are public and you are welcome to join!
+     
+    
+    <h2>Nightly development builds</h2>
+
+    If you want to test the latest developments in Aquamacs, download the nightly builds <a href="http://aquamacs.org/nightlies.shtml">here.</a>
+    
+   
+    <h2>Getting the source code</h2>
+
+    <h3>Version Control Repository Access</h3>
+    <p>Compiling Aquamacs from the Git repository is easy. All you need is Apple's
+    Developer Tools and OS X 10.4 or later, and <a href="http://git-scm.com/download">Git</a>. We have a repository at <a href="http://github.com/davidswelt/aquamacs-emacs/tree/master">GitHub</a>, and all source code can be checked out via Git.
+    You can get a shallow (quick) checkout,</p>
+   <br>
+    
+    <code>git clone --depth 3 git://github.com/davidswelt/aquamacs-emacs.git</code><br>
+    <br>
+    <i>or, for a full checkout:</i><br>
+    <code>git clone git://github.com/davidswelt/aquamacs-emacs.git</code>
+    </p>
+    <p>
+    There's a <a href="http://github.com/davidswelt/aquamacs-emacs/tree/aquamacs3">web view of the Aquamacs repository</a> which allows you to browse and download files.
+    </p>
+    
+    <p>
+    Refer to the <a href=
+"http://www.emacswiki.org/emacs/BuildingAquamacs">BuildingAquamacs</a>
+Wiki page for instructions on how to build it. It's pretty much automatic.</p>
+    <p>Want to see the latest change log? <a href=
+    "/changelog-latest.html">Check this out...</a></p>
+
+ <h3>Releases</h3>
+
+    The <a href="/releases.shtml" >source code for releases</a> is also available, but we strongly suggest you build from the current head revision in the Git repository (which is as easy as calling "make install").
+    
+    <h2>Patches and other contributions</h2>
+
+    <p><b>Your contributions are more than welcome!</b>  Just send e-mail to aquamacs-devel.</p>
+
+
+    <h2>Statistics</h2>
+<p>
+Interested in who uses Aquamacs?  We have <a href="http://braeburn.aquamacs.org/~dr/Aquamacs/stats/" >extensive user statistics</a> available for you.
+<br>
+<img src="http://braeburn.aquamacs.org/~dr/Aquamacs/stats/userbase.svg" width="550">
+<br clear=all>
+
+    <h1>Authors</h1>
+
+    <p>Aquamacs Emacs has been developed by <a href=
+    "http://www.david-reitter.com">David Reitter</a> (maintainer,
+    <script language="JavaScript" type="text/javascript"> //<![CDATA[
+    user = 'david.reitter'; site = 'gmail.com';
+    document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+    document.write(user + '@' + site + '<\/a>'); //]]> </script>). GNU Emacs is the work
+    of Richard Stallman and many other developers, including Andrew
+    Choi, Yamamoto Mitsuharu, Adrian Robert who ported GNU Emacs to the Mac. Kevin Walzer
+    co-founded the project and wrote the initial documentation.
+    Nathaniel Cunningham contributed code for the tabbar, among other things.  Sidney Markowitz contributed code.  Adrian
+    Chromenko and Jessica Walker contributed artwork.  </p>
+
+    <p>We would also like to acknowledge the contributions of the
+    authors of packages, whose source code and hints on public forums have
+    already been integrated into the build.<br /></p>
+
+    <p>The Aquamacs distribution of Emacs is released under the
+    <a href="http://www.gnu.org/copyleft/gpl.html">GNU General
+    Public License.</a> Source code for the base build is a branch of
+    GNU Emacs.  Most customizations are bundled in with the
+    application package itself.</p>
+
+    <h1>Is Aquamacs a fork of GNU Emacs?</h1> Aquamacs is a large-scale customization effort to make Emacs more user-friendly, particularily for users on modern, GUI-based operating systems. Through continuous development over more than five years, Aquamacs has become a distinct application.
+While you could see Aquamacs as a friendly fork, please consider this: <i>Aquamacs uses the same code-base as GNU Emacs</i>. As GNU Emacs evolves, so does Aquamacs. We keep our code-base synced by merging from the GNU Emacs development branch.  <i>Aquamacs contributes back to the GNU Emacs project.</i> Selected changes that were developed for and within Aquamacs are being submitted back to the GNU Emacs project (e.g., bug reporting and mail sending functions, mailclient.el).   Numerous bugs have been reported through the development of Aquamacs, and we have successfully lobbied for better support of many things relevant to Mac users and GNU/Linux users alike, for instance soft word wrapping.  So, technically speaking, Aquamacs is a downstream project, developing a distribution of GNU Emacs. </div>
+
+ <!--#include virtual="bottom.shtml" -->  

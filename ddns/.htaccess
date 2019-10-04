@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Protected"
+AuthUserFile /fs5c/aquamacs/protected/.htpasswd
+Require valid-user
+

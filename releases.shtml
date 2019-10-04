@@ -1,0 +1,18 @@
+<!--#include virtual="top.shtml" -->
+
+<div id="Content">
+  
+   <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->  
+
+  <h1>Releases</h1>
+
+
+  
+  <iframe style="border:1pt grey solid; "
+    height="250" width="550" src=
+    "http://braeburn.aquamacs.org/releases"></iframe>
+  <br />
+
+
+  
+ <!--#include virtual="bottom.shtml" -->

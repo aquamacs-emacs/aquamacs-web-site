@@ -1,0 +1,85 @@
+<!--#include virtual="top.shtml" -->
+
+<div id="Content">
+  
+   <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->  
+
+  <h1>Downloads</h1>
+
+<p>Download the latest version of Aquamacs Emacs, as well as
+older ones. This page also offers links to plugins for Aquamacs.</p>
+
+<a name="#d200000"> </a>
+
+<div class="downloads">
+
+<ul id="dl" style="line-height:200%;">
+
+
+
+<!--#if expr='("${HTTP_USER_AGENT}"=~/Intel/) || ("${HTTP_USER_AGENT}"=~/x86_64/)' --> 
+<li class="recommended-download">
+<!--#else -->
+<li class="download">
+<!--#endif -->
+<img src="/images/down-22.png">
+<a href="http://aquamacs.org/download-release.shtml">
+  Aquamacs Emacs 3.5</a><br>
+  <ul>
+   <li><strong>official release: stable, reliable, recommended!</strong>
+    <li>based on GNU Emacs 25.3
+    
+    <li>For all modern Macs (OS X 10.9+, 64bit Intel).
+<!--#if expr='("${HTTP_USER_AGENT}"=~/Intel/) || ("${HTTP_USER_AGENT}"=~/x86_64/)' --> 
+<b>Recommended for your Mac.</b>
+    <!--#endif -->
+
+    <li><a href="#changelog">Change Log: What's new in version 3.5?</a>
+  
+</ul></li>
+
+  
+<li class="download"><img src="/images/down-22.png"><a href="nightlies.shtml">Nightly builds</a><br>
+<ul><li><string>Follow the development with our Nightly
+  builds</strong></li></ul>
+  </li>
+
+
+<li class="download"><img src="/images/down-22.png">
+<a href="http://aquamacs.org/download-classic.shtml">
+  Aquamacs Emacs 2.5</a><br>
+  <ul>
+   <li><strong>last release available for older Macs</strong>
+    <li>based GNU Emacs 23.4
+
+
+    <li>For 32bit Intel Macs (OS X 10.6+, 64bit and 32bit Intel).
+<!--     <li><a href="download-release-ub.shtml">Universal Binary of -->
+<!--     Aquamacs 2.4</a> for PowerPC (PPC) Macs, or Macs with older -->
+<!--     operating systems. -->
+
+</ul></li>
+
+
+ </div>
+<h2>Requirements</h2>
+
+<ul>
+
+  <li>from Aquamacs 3.3 on: Apple Mac OS X 10.9 or later.
+  <li>from Aquamacs 3.0 on: Apple Mac OS X 10.6 or later, and (for the
+  binary release) 64-bit Intel CPU (all modern Macs)</li>
+  <li>from Aquamacs 2.0 on: Apple Mac OS X 10.5.8 or later (Intel/PPC)</li>
+
+</ul>
+<a name="changelog"></a>
+<h2>What's new in the latest release?</h2>
+<div>
+<a href="nightlies.shtml#changelog-latest">Click here for the changes
+in the latest development builds.</a></div>
+<div class="changelog">
+<!--#include virtual="changelog-release.html" -->
+</div><br />
+</div>
+
+ <!--#include virtual="bottom.shtml" -->

@@ -1,0 +1,24 @@
+<!--#include virtual="top.shtml" -->
+  <div id="Content">
+
+    <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->
+    <h1>Support the Aquamacs Project</h1>
+     
+    <p>Aquamacs is free software, but producing it costs a lot of time
+    and also some real cash. Between 2005 and 2019, I has
+    produced and combined the majority of the code that makes Aquamacs unique compared
+    to a standard Emacs implementation. A number of other volunteers
+    helped me by means of bug reporting and making helpful suggestions,
+    through documentation and support, and through contributing
+special packages.
+
+<p>In August 2019, I stepped down as the lead developer.  Therefore, I
+think it is right to stop accepting donations.   You can still support
+the project by contributing code: fix bugs, develop features, and help out people asking
+questions on the mailing list.  
+
+<p><i>David Reitter</i>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,14 @@
+<!--#include virtual="top.shtml" -->
+  <div id="Content">
+
+    <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->
+    <h1>Support the Aquamacs Project</h1>
+
+    <h2>Your payment has been made. Thank you for your donation.</h2>
+
+    </div>
+
+<!--#include virtual="bottom.shtml" -->
+
+
+    

@@ -1,0 +1,70 @@
+<!--#include virtual="top.shtml" -->
+
+
+  <div id="Content">
+
+    <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->
+    <div id="testimonials">
+      <!--#include virtual="/cgi-bin/get-testimonials.cgi" -->
+    </div>
+    <p><strong>Aquamacs</strong> is a user-friendly build of the powerful <a href=
+    "http://www.gnu.org/software/emacs/emacs.html">Emacs</a> text
+    editor.  Aquamacs integrates with the Mac and offers the same
+    comforts that any application on the Mac provides.  Yet, it comes
+    with all the ergonomy and extensibility you've come to expect from
+    GNU Emacs. It's beeen adapted by <a
+    href="http://www.david-reitter.com/" alt="Reitter">David
+    Reitter</a>, based on GNU Emacs by Richard Stallman and many
+    others.
+    <p>
+    Aquamacs has been available for about a decade and
+    is used daily by thousands of academics, programmers, and
+    authors.  It is backed by two strong communities: Aquamacs users,
+    and Emacs enthusiasts on all computing platforms (GNU/Linux/Unix,
+    Windows, Mac).
+
+    
+    <p><b>What's Emacs?</b> Emacsis a text editor of legendary power and
+    configurability, but it also has an enormously complex user
+    interface. One advantage of it is: no matter what operating
+    system you run Emacs on, you'll always get the same interface.
+    The big challenge: if you use a number of applications on your
+    Mac, one of them is Emacs, you'll have to switch gears when you
+    switch to Emacs.</p>
+
+    <p><b>Aquamacs is better.</b> We support the standard Mac user
+    interface that you've come to love. For instance, in addition
+    to traditional Emacs shortcuts like C-x C-f (open a new file),
+    Aquamacs understands Command-O. Aquamacs behaves like a modern
+    application on Mac (or Windows) when it comes to selecting,
+    copying, pasting texts within Aquamacs or in between
+    applications. Aquamacs offers nice, smooth fonts. Asian input
+    methods work. It's easy to install and runs out-of-the box with
+    no configuration. And all is built on GNU Emacs, so you can use
+    your favorite Emacs packages! Check the <a href=
+    "features.shtml">Features section</a> if you want to know
+    more.</p>
+
+    <p><b>Who made it?</b> Aquamacs has been adapted from GNU Emacs by <a
+     alt="Reitter" href="http://www.david-reitter.com">David
+    Reitter</a>, aided by enthusiastic users and Emacs
+    experts. Collaborator <a
+     href="http://www.nebrwesleyan.edu/users/ncunning" alt="Cunningham">Nathaniel Cunningham</a> has contributed
+     features such as native spell-checking and window tabs.
+    Project co-founder Kevin Walzer has contributed
+    easy-to-understand manuals. There is a long list of contributors,
+     including those who wrote included packages and, of course,
+     Emacs.
+    GNU Emacs has a long history that
+    began some fourty years ago, primarily driven by the efforts of
+    GNU founder <a href="http://stallman.org/">Richard M. Stallman</a>.  GNU Emacs has first been ported
+    to the Mac by Andrew Choi; the Cocoa port was written by Adrian
+     Robert and colleagues; much Mac development of Emacs was done by 
+     Yamamoto Mitsuharu.</p>
+
+    <p><strong>The website.</strong> The website is derived from a design by <a href="http://tedroden.com/">Ted Roden</a>. We use icons from the <a href="http://famfamfam.com/lab/icons/silk/">Silk Icon Set</a> and some icons designed by <A href="http://www.everaldo.com/">Everaldo Coelho</a>.
+
+</div>
+
+
+ <!--#include virtual="bottom.shtml" -->

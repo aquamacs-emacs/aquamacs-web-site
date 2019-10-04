@@ -1,0 +1,136 @@
+  body { margin: 0px;
+    padding: 0px;
+    color: rgb(51, 51, 51);
+    background-color: #CCCCCC;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 80.01%;
+    }
+
+td {
+     margin: 0px;
+    padding: 0px; 
+    color: rgb(51, 51, 51);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 90%;
+}
+  h1 { margin: 5pt 0px 15px;
+    margin-top: 15pt;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 20px;
+    line-height: 22px;
+    font-size-adjust: none;
+    font-stretch: ;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    }
+
+  h2 { margin: 0px 0px 15px;
+   
+    padding: 0px;
+    padding-top: 20pt;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 16px;
+    line-height: 18px;
+    font-size-adjust: none;
+    font-stretch: ;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    }
+h3,h4 { margin: 0px 0px 15px;
+   
+    padding: 0px;
+    padding-top: 10pt;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 16px;
+    line-height: 13px;
+    font-size-adjust: none;
+    font-stretch: ;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    }
+  p,td { margin: 0px 0px 16px;
+    padding: 0px; 
+    line-height: 135%;
+      
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+     
+    }
+
+pre {
+    font-size: 10pt;
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+}
+
+  ul { list-style-type: disc;
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    }
+
+  a { color: rgb(0, 153, 204);
+    font-size: 100.01%;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    }
+
+  a:link { color: rgb(0, 153, 204);
+    }
+
+  a:visited { color: rgb(0, 119, 170);
+    }
+
+  a:hover { background-color: rgb(238, 238, 238);
+}
+
+.quote-quote {
+    font-family: Garamond, Times, serif;
+    font-size:12pt;
+}
+.quote-source, .quote-spec {
+    font-size:8pt;
+}
+
+  #Content, #News { border: 1px solid black;
+    margin: 0px 210px 50px 10px;
+    padding: 10px;
+    overflow:hidden;
+    background:white;
+    }
+
+  #rightBox { border: 1px dashed black;
+    padding: 10px;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    width: 172px;
+    background:white;
+    }
+#rightBox:before {
+    content: url(images/aquamacs.png);
+} 
+
+  #SFLink { border: 0;
+    padding: 10px;
+    position: absolute;
+    top: 600px;
+    right: 10px;
+    width: 172px;
+    }
+
+
+hr {
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+p.copyright {
+  display:none;  
+}

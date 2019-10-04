@@ -1,0 +1,45 @@
+<!--#include virtual="top.shtml" -->
+  <div id="Content">
+
+    <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->    
+<h2>Press Release<br>    Embargo: 19-June-2008</h2>
+
+    <h1>Aquamacs Emacs 1.4 released</h1>
+
+The Aquamacs Project is proud to announce the release of Aquamacs Emacs 1.4, the leading Mac-friendly variant of the widely-used editor Emacs. It is a versatile, fast and mature editor for source code, web pages, typesetting documents and all other forms of text. Emacs is a text editor of legendary flexibility and has made millions of programmers and writers very productive. Numerous packages allow users to extend its functionality.
+
+Aquamacs is adapted to the Mac's "Aqua" user interface. That means more than just the fact that this version of Emacs runs as a standard OS X application. Earlier versions of Emacs also had an enormously complex user interface. That is different in Aquamacs, which behaves the way Mac users expect. Aquamacs looks good and integrates well with other applications on the Mac. Normal OS X keyboard commands are offered along with the extended Emacs ones. No complicated installation is needed. Yet it's still a real GNU Emacs with all the ergonomy and extensibility that this world-class editor is famous for.
+
+Aquamacs Emacs 1.4 includes the following improvements:
+
+    <ul>
+<li>New multi-tabbed interface similar to Safari. This makes switching between open files faster and more intuitive.
+
+<li> Full screen editing now available. This allows you to focus just on editing your files without distraction from other applications.
+
+<li>Aquamacs no longer creates backup files by default: less clutter in your files.
+
+<li>Now uses standard "unified" toolbar, with improved icons, for greater ease-of-use.
+
+<li>Improved LaTeX support.
+
+<li>Numerous improvements in text search.
+
+<li>Can check for program updates from the application menu.
+</ul>
+
+Founded and maintained by the father of Free Software, Richard M. Stallman, GNU Emacs has a long history that began some thirty years ago. He is helped by a team of volunteers, some of whom have worked hard to bring Emacs to the Mac. Aquamacs Emacs is a spin-off distribution maintained by David Reitter and his team of enthusiastic users, Mac lovers and Emacs experts.
+
+Aquamacs is Free Software and open-source. It is a universal binary, supporting both PPC and Intel, and requires Mac OS X 10.4 to run. Downloads and more information are available at http://aquamacs.org.
+
+<h2>Press Contact</h2>
+<b>Do Not Publish</b>
+<br>
+Contact David Reitter by <a
+href="http://www.david-reitter.com/mailme.html">e-mail</a>.  Available
+for interviews in English or German.
+
+
+  </div>
+
+ <!--#include virtual="bottom.shtml" -->
