@@ -14,9 +14,9 @@
 <!--[if lt IE 7.]>
 <script defer type="text/javascript" src="pngfix.js"></script>
 <![endif]-->
-  <link href="3.0.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/3.0.css" rel="stylesheet" type="text/css" />
 <!--[if IE]>
-  <link href="ie.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/ie.css" rel="stylesheet" type="text/css" />
 <![endif]-->
 
 
