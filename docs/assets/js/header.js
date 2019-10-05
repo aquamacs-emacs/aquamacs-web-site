@@ -1,40 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head> 
-  <meta content="text/html; charset=utf-8" http-equiv=
-  "Content-Type" />
-  <meta name="keywords" content=
-  "Emacs,Mac,OS X,OSX,Macosx,Aqua,Carbon,Cocoa,XEmacs,GNU" />
-  <meta name="description" content=
-  "Aquamacs is an Emacs for Mac OS X that will feel mostly like an Aqua program - while still being a real GNU Emacs with all the ergonomy and extensibility you've come to expect from this world-class editor." />
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <title>Aquamacs: Emacs for Mac OS X</title>
-<!--[if lt IE 7.]>
-<script defer type="text/javascript" src="assets/js/pngfix.js"></script>
-<![endif]-->
-  <link href="assets/css/3.0.css" rel="stylesheet" type="text/css" />
-<!--[if IE]>
-  <link href="assets/css/ie.css" rel="stylesheet" type="text/css" />
-<![endif]-->
-
-
-<script src="http://www.google-analytics.com/urchin.js" type=
-"text/javascript">
-</script>
-<script type="text/javascript">
-//<![CDATA[
-_uacct = "UA-77306-1";
-urchinTracker();
-//]]>
-</script>
-<script type="text/javascript">
-//<![CDATA[
-
-
-
- var types = new Array("objc", 
+var types = new Array("objc", 
  "about",
  "feature-matrix", 
  "features", 
@@ -116,29 +80,4 @@ images[i].src  = images[i].src.replace(/\.([^\.]+)$/, '@2x.$1');
 }
 }
 
-//]]>
-</script>
-</head>
-
-<body onload="processHighResImages();advanceStep();">
-  <br />
-
-
-<div id="header">
-  
-  <div id="left" width="100%"><a href="/" title="Aquamacs Home">
-
-    <img id=toplogo class=highRes style="position:absolute;" border="0" src="assets/images/aquamacs-logo.png" alt="Aquamacs Emacs" width=460 />
-
- <script type="text/javascript">
-    document.getElementById("toplogo").width=Math.min(460, document.getElementById("header").offsetWidth*0.7);
-</script>
-
-    </a>
-  </div>
-
-  <div id="right">
-  </div>
-
-  <!--#include virtual="menu.php?from=${DOCUMENT_NAME}" -->            
-</div>
+document.getElementById("toplogo").width=Math.min(460, document.getElementById("header").offsetWidth*0.7);
