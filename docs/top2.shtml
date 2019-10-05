@@ -11,7 +11,7 @@
   "Aquamacs is an Emacs for Mac OS X that will feel mostly like an Aqua program - while still being a real GNU Emacs with all the ergonomy and extensibility you've come to expect from this world-class editor." />
   <title>Aquamacs: Emacs for Mac OS X</title>
 <!--[if lt IE 7.]>
-<script defer type="text/javascript" src="pngfix.js"></script>
+<script defer type="text/javascript" src="assets/js/pngfix.js"></script>
 <![endif]-->
   <link href="assets/css/3.0.css" rel="stylesheet" type="text/css" />
 <!--[if IE]>
