@@ -6,7 +6,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "serve docs"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/treese/aquamacs-web-site/issues"
   },
-  "homepage": "https://github.com/treese/aquamacs-web-site#readme"
+  "homepage": "https://github.com/treese/aquamacs-web-site#readme",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
 }
