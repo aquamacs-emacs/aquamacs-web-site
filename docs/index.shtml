@@ -13,17 +13,17 @@
     <div class="homedownload">
       <!--#if expr='("${HTTP_USER_AGENT}"=~/PowerPC/) || ("${HTTP_USER_AGENT}" =~ /i386/)' --> 
 <a href="http://aquamacs.org/download-release-ub.shtml">
-        <img src="images/download-48.png" border=0>Download
+        <img src="assets/images/download-48.png" border=0>Download
       Version 2.4 (Universal Binary) for Mac OS X</a>
       <!--#else-->
 <a href="http://aquamacs.org/download-release.shtml">
-        <img src="images/download-48.png" border=0>Download
+        <img src="assets/images/download-48.png" border=0>Download
       Version 3.5 for Mac OS X</a>
       <!--#endif-->
     </div>
-    <div class="homess"><a style="border:0;" href="images/large-screenshot-dark.png"
+    <div class="homess"><a style="border:0;" href="assets/images/large-screenshot-dark.png"
         target="ss_extra" alt="Click for a large Aquamacs screenshot">
-      <img  src="images/large-screenshot-dark.png"
+      <img  src="assets/images/large-screenshot-dark.png"
       width=792 height=594 border=0  title="Click for a large Aquamacs screenshot"></a></div>
     </div>
 

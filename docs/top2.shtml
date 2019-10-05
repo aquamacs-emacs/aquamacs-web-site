@@ -126,7 +126,7 @@ images[i].src  = images[i].src.replace(/\.([^\.]+)$/, '@2x.$1');
 <div id="header">
   
   <div id="left"><a href="/" title="Aquamacs Home">
-  <img class='highRes' style="position:absolute;" border="0" src="images/aquamacs-logo.png" alt="Aquamacs Emacs" width=450 height=150></a>
+  <img class='highRes' style="position:absolute;" border="0" src="assets/images/aquamacs-logo.png" alt="Aquamacs Emacs" width=450 height=150></a>
   </div>
 
   <div id="right">

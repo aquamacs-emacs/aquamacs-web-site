@@ -22,7 +22,7 @@ older ones. This page also offers links to plugins for Aquamacs.</p>
 <!--#else -->
 <li class="download">
 <!--#endif -->
-<img src="/images/down-22.png">
+<img src="assets/images/down-22.png">
 <a href="http://aquamacs.org/download-release.shtml">
   Aquamacs Emacs 3.5</a><br>
   <ul>
@@ -39,13 +39,13 @@ older ones. This page also offers links to plugins for Aquamacs.</p>
 </ul></li>
 
   
-<li class="download"><img src="/images/down-22.png"><a href="nightlies.shtml">Nightly builds</a><br>
+<li class="download"><img src="assets/images/down-22.png"><a href="nightlies.shtml">Nightly builds</a><br>
 <ul><li><string>Follow the development with our Nightly
   builds</strong></li></ul>
   </li>
 
 
-<li class="download"><img src="/images/down-22.png">
+<li class="download"><img src="assets/images/down-22.png">
 <a href="http://aquamacs.org/download-classic.shtml">
   Aquamacs Emacs 2.5</a><br>
   <ul>

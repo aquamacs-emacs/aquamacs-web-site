@@ -128,7 +128,7 @@ images[i].src  = images[i].src.replace(/\.([^\.]+)$/, '@2x.$1');
   
   <div id="left" width="100%"><a href="/" title="Aquamacs Home">
 
-    <img id=toplogo class=highRes style="position:absolute;" border="0" src="images/aquamacs-logo.png" alt="Aquamacs Emacs" width=460 />
+    <img id=toplogo class=highRes style="position:absolute;" border="0" src="assets/images/aquamacs-logo.png" alt="Aquamacs Emacs" width=460 />
 
  <script type="text/javascript">
     document.getElementById("toplogo").width=Math.min(460, document.getElementById("header").offsetWidth*0.7);

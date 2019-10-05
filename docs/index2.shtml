@@ -13,12 +13,12 @@
 
     <div class="homedownload">
 <a href="http://aquamacs.org/download-release.shtml">
-        <img src="images/download-48.png" border=0>Download
+        <img src="assets/images/download-48.png" border=0>Download
       Version 2.4 for Mac OS X</a>
     </div>
-    <div class="homess"><a style="border:0;" href="images/aquamacs-screenshot.png"
+    <div class="homess"><a style="border:0;" href="assets/images/aquamacs-screenshot.png"
         target="ss_extra" alt="Click for a large Aquamacs screenshot">
-      <img src="images/smaller-home-ss.png" border=0  title="Click for a large Aquamacs screenshot"></a></div>
+      <img src="assets/images/smaller-home-ss.png" border=0  title="Click for a large Aquamacs screenshot"></a></div>
     </div>
 
   <div id="News">

@@ -9,8 +9,8 @@ document.write("(cderoove");document.write("@");document.write("vub.ac.be)");
 //]]>
 </script></i>
 
-<p>      <a href="latex/general-screenshot.png"><img src=
-    "latex/general-screenshot.png" width=400 /></a></p>
+<p>      <a href="assets/images/latex/general-screenshot.png"><img src=
+    "assets/images/latex/general-screenshot.png" width=400 /></a></p>
 
     <p>Most old-school Mac users would never think of using
     something for their LaTeX editing needs that brings up so many
@@ -46,16 +46,16 @@ document.write("(cderoove");document.write("@");document.write("vub.ac.be)");
 
     <p>You can continue using the keyboard shortcuts for
     copy-pasting you're accustomed to.<br />
-    <a href="latex/menu_shortcuts.png"><img src=
-    "latex/menu_shortcuts_thumb.png" /></a><br />
+    <a href="assets/images/latex/menu_shortcuts.png"><img src=
+    "assets/images/latex/menu_shortcuts_thumb.png" /></a><br />
     The file menu even has a recent items entry.<br />
-    <a href="latex/menu_shortcuts_recent.png"><img src=
-    "latex/menu_shortcuts_recent_thumb.png" /></a></p>
+    <a href="assets/images/latex/menu_shortcuts_recent.png"><img src=
+    "assets/images/latex/menu_shortcuts_recent_thumb.png" /></a></p>
 
     <p>And the Aquamacs menu icon is of course blessed with a more
     Mac-like look.<br />
-    <a href="latex/icon_menu.png"><img src=
-    "latex/icon_menu.png" /></a></p><a class="topOfPage"
+    <a href="assets/images/latex/icon_menu.png"><img src=
+    "assets/images/latex/icon_menu.png" /></a></p><a class="topOfPage"
     href="#top" title="Go to the top of this page">^ TOP</a>
 
     <h2 id="auctex">AUCTeX is already included</h2><a href=
@@ -71,23 +71,23 @@ document.write("(cderoove");document.write("@");document.write("vub.ac.be)");
     of the <tt>\emph</tt> command is for instance set in italics.
     Also, the font size and weight of subsections varies according
     to their nesting.<br />
-    <a href="latex/syntax_color.png"><img src=
-    "latex/syntax_color_thumb.png" /></a></p>
+    <a href="assets/images/latex/syntax_color.png"><img src=
+    "assets/images/latex/syntax_color_thumb.png" /></a></p>
 
     <p>While you're typing, paren matching will help you close all
     kinds of parens and brances correctly.<br />
-    <a href="latex/paren_matching.png"><img src=
-    "latex/paren_matching_thumb.png" /></a></p>
+    <a href="assets/images/latex/paren_matching.png"><img src=
+    "assets/images/latex/paren_matching_thumb.png" /></a></p>
 
     <p>Text in a <tt>verbatim</tt> environment and arguments of the
     <tt>verb</tt> command are typeset in a typewriter font.<br />
-    <a href="latex/syntax_color_verb.png"><img src=
-    "latex/syntax_color_verb_thumb.png" /></a></p>
+    <a href="assets/images/latex/syntax_color_verb.png"><img src=
+    "assets/images/latex/syntax_color_verb_thumb.png" /></a></p>
 
     <p>Superscripts and subscripts are also rendered with the
     proper fonts.<br />
-    <a href="latex/syntax_color_super_sub.png"><img src=
-    "latex/syntax_color_super_sub_thumb.png" /></a></p><a class=
+    <a href="assets/images/latex/syntax_color_super_sub.png"><img src=
+    "assets/images/latex/syntax_color_super_sub_thumb.png" /></a></p><a class=
     "topOfPage" href="#top" title="Go to the top of this page">^
     TOP</a>
 
@@ -100,14 +100,14 @@ document.write("(cderoove");document.write("@");document.write("vub.ac.be)");
     <tt>\documentclass[a4paper]{articlle}</tt>, but it will
     underline both errors in <tt>\section[Short tiitle]{Longer
     tiiitle}</tt>.<br />
-    <a href="latex/flyspell.png"><img src=
-    "latex/flyspell_thumb.png" /></a><br />
+    <a href="assets/images/latex/flyspell.png"><img src=
+    "assets/images/latex/flyspell_thumb.png" /></a><br />
     Note that some words are underlined in orange instead of red.
     These words are available in the British English dictionary,
     but not in the current one that is set to American
     English.<br />
-    <a href="latex/flyspell_menu.png"><img src=
-    "latex/flyspell_menu_thumb.png" /></a><br /></p><a class=
+    <a href="assets/images/latex/flyspell_menu.png"><img src=
+    "assets/images/latex/flyspell_menu_thumb.png" /></a><br /></p><a class=
     "topOfPage" href="#top" title="Go to the top of this page">^
     TOP</a>
 
@@ -116,8 +116,8 @@ document.write("(cderoove");document.write("@");document.write("vub.ac.be)");
     <p>In case of a LaTeX error, you can easily see the error
     message and the line on which the error occured side by side. A
     simple click of the button brings you to the next error.<br />
-    <a href="latex/navigate_latex_errors.png"><img src=
-    "latex/navigate_latex_errors_thumb.png" /></a></p><a class=
+    <a href="assets/images/latex/navigate_latex_errors.png"><img src=
+    "assets/images/latex/navigate_latex_errors_thumb.png" /></a></p><a class=
     "topOfPage" href="#top" title="Go to the top of this page">^
     TOP</a>
 
@@ -129,21 +129,21 @@ document.write("(cderoove");document.write("@");document.write("vub.ac.be)");
     large document, but the authors were kind enough to display
     these little work-in-progress triangles to keep you
     entertained.<br />
-    <a href="latex/preview_working.png"><img src=
-    "latex/preview_working_thumb.png" /></a></p>
+    <a href="assets/images/latex/preview_working.png"><img src=
+    "assets/images/latex/preview_working_thumb.png" /></a></p>
 
     <p>You can continue editing your document as usual. The
     previews for formulas and images will move along with the other
     text. This feature truly makes editing complicated documents a
     breeze.<br />
-    <a href="latex/preview_finished.png"><img src=
-    "latex/preview_finished_thumb.png" /></a></p>
+    <a href="assets/images/latex/preview_finished.png"><img src=
+    "assets/images/latex/preview_finished_thumb.png" /></a></p>
 
     <p>For quick feedback about any change you made, you can easily
     toggle between the inline preview and the LaTeX code of an
     image or formula.<br />
-    <a href="latex/preview_expanded.png"><img src=
-    "latex/preview_expanded_thumb.png" /></a></p><a class=
+    <a href="assets/images/latex/preview_expanded.png"><img src=
+    "assets/images/latex/preview_expanded_thumb.png" /></a></p><a class=
     "topOfPage" href="#top" title="Go to the top of this page">^
     TOP</a>
 
@@ -154,8 +154,8 @@ document.write("(cderoove");document.write("@");document.write("vub.ac.be)");
     <tt>\ref{fuzzyresolution}</tt> reference while the bottom
     window was obtained by clicking on the
     <tt>\label{fuzzyresolution}</tt> label.<br />
-    <a href="latex/navigate_references.png"><img src=
-    "latex/navigate_references_thumb.png" /></a></p>
+    <a href="assets/images/latex/navigate_references.png"><img src=
+    "assets/images/latex/navigate_references_thumb.png" /></a></p>
 </div>
 
  <!--#include virtual="bottom.shtml" -->
