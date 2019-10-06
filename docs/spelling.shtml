@@ -21,6 +21,6 @@
     <li>One or more pre-built dictionaries.  Currently, only English is available,     for either PowerPC (<a href="spelling/AspellEnglishDictionary-PPC.tgz" >download 217K</a>) or Intel (<a href="spelling/AspellEnglishDictionary-X86.tgz" >download 217K</a>).
   </ul>
   <p>Installer packages designed by Anton Leuski at USC. Aspell is a     spell-checking engine provided by the GNU Project.
-  If you can produce installer packages for other languages, please help the       Aquamacs project by <a href="development.shtml" >contributing</a>.
+  If you can produce installer packages for other languages, please help the       Aquamacs project by <a href="development.html" >contributing</a>.
 </div>
 <!--#include virtual="bottom.shtml" -->
