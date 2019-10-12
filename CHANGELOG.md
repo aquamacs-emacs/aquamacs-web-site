@@ -14,8 +14,6 @@
 
 - Bug fix: Color lists were unavailable on late MacOS versions. Reported by Max Arnold.
 
---- 
-
 ## 2.4
 
 - Added <I>visual-basic-mode</I>. Code by Fred White, Dave Love, Randolph Fritz and Vincent Belaiche.
@@ -48,8 +46,6 @@ Suggested by Gilles Lenfant.
 - <TT>Matlab-Mode</TT> has been updated to version 3.3.1.
 Suggested by Dennis Rosset.
 
----
-
 ## 2.3
 
 - Compatibility fixes (title and toolbar in windows) with Mac OS X 10.7 ``Lion''. Patch by Bob Halley and Jan Dj&#228;rv.
@@ -70,8 +66,6 @@ Reported by Viktor Rosenfeld.
 
 - 2.3a: Fixed regression involving selecting text and yanking (pasting) from the clipboard.
 Reported by Marinos Koutsomichalis and Tom van Vleck.
-
----
 
 ## 1.0a
 
@@ -147,8 +141,6 @@ Also (the technical change): Function `switch-to-buffer' will set the current bu
 
 - Some additional executables like movemail did not work on PPC Macs.
 Reported by Barbara Shirtcliff.
-
----
 
 ## 1.0b
 
