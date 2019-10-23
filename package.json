@@ -8,8 +8,10 @@
   "scripts": {
     "build": "run-p build:*",
     "build:html": "node scripts/buildTemplates.js",
+    "build:css": "node-sass public/assets/sass/_index.scss > docs/assets/css/main.min.css --output-style compressed --omit-source-map-url",
     "watch": "run-p serve watch:*",
     "watch:html": "onchange 'public/**/**.njk' -- npm run build:html",
+    "watch:css": "onchange 'public/assets/**/**.scss' -- npm run build:css",
     "serve": "serve docs"
   },
   "repository": {
