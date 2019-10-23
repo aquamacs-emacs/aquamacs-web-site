@@ -30,5 +30,8 @@
   "homepage": "https://github.com/treese/aquamacs-web-site#readme",
   "devDependencies": {
     "serve": "^11.2.0"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.0"
   }
 }
