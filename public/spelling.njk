@@ -1,6 +1,7 @@
-<!--#include virtual="top.shtml" -->
-
-<div id="Content">
+{% include "_includes/header.njk" %}
+<body onload="processHighResImages();advanceStep();">
+  {% include "_includes/navbar.njk" %}
+  <div id="Content">
   <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->    
   <h1>Spell-Checking in Aquamacs</h1>
 
@@ -23,4 +24,6 @@
   <p>Installer packages designed by Anton Leuski at USC. Aspell is a     spell-checking engine provided by the GNU Project.
   If you can produce installer packages for other languages, please help the       Aquamacs project by <a href="development.html" >contributing</a>.
 </div>
-<!--#include virtual="bottom.shtml" -->
+  {% include "_includes/footer.njk" %}
+ </body>
+</html>
