@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77306-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-77306-1');
+  </script>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta name="keywords" content="Emacs,Mac,OS X,OSX,Macosx,Aqua,Carbon,Cocoa,XEmacs,GNU" />
+  <meta name="description" content="Aquamacs is an Emacs for Mac OS X that will feel mostly like an Aqua program - while still being a real GNU Emacs with all the ergonomy and extensibility you've come to expect from this world-class editor." />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <title>Aquamacs: Emacs for Mac OS X</title>
+  <!--[if lt IE 7.]>
+  <script defer type="text/javascript" src="assets/js/pngfix.js"></script>
+  <![endif]-->
+  <link href="assets/css/main.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="processHighResImages();advanceStep();">
+  <header>
+    <div id="left" width="100%">
+        <a href="/" title="Aquamacs Home">
+            <img id=toplogo class=highRes style="position:absolute;" src="assets/images/aquamacs-logo.png" alt="Aquamacs Emacs" width=460 />
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li id="home">
+                <span><a href="/">Home</a></span>
+            </li>
+            <li id="about_menu">
+                <span><a href="about.html">What's Aquamacs?</a></span>
+            </li>
+            <li id="features_menu">
+                <span><a href="features.html">Features</a></span>
+            </li>
+            <li id="download">
+                <img src="assets/images/download-48.png" height="32" width="32"/>
+                <span><a href="download.html">Downloads</a></span>
+            </li>
+            <li id="support_menu">
+                <img src="assets/images/support-56.png" height="69" width="56"/>
+                <span><a href="support.html">Support</a></span>
+            </li>
+            <li id="development">
+                <img src="assets/images/development-56.png" height="32" width="32"/>
+                <span><a href="development.html">Development</a></span>
+            </li>
+        </ul>
+    </nav>
+</header>
+  <div id="Content">
+    <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->    
+    <h1>Reporting problems with Aquamacs</h1>
+
+    <ul> <li>Bug reports are sent to the <a href="mailto:aquamacs-bugs@aquamacs.org">
+      Aquamacs-bugs mailbox</a> using the "Send Bug Report"
+      function in the Aquamacs <em>Help / Diagnose and Report Bug</em> menu. If you have a problem with a
+      particular mode and you're sure that the bug occurs when using
+      that mode with a plain GNU Emacs (not Aquamacs), then try to get
+      in touch with the developers of that mode.  Do not send bug
+      reports to the Emacs on OS X mailing list. If you know that the
+      bug occurs in GNU Emacs, too, then report it to the <a href=
+      "mailto:bug-gnu-emacs@gnu.org">GNU
+      Emacs Bug mailing list</a> instead. However you submit a
+      bug, you must follow the points below before making a
+      report!</li>
+
+      <li>
+        <h4>Bug Reporting Procedure:</h4>If you encounter a bug while using a
+        nightly build, you must run the following checks to
+        determine the general source of the bug:<p>
+
+        <ol>
+	  <li>Ensure you're using the latest <a href="/downloads.shtml">release</a> or a recent <a href="nightlies.html">nightly build</a>.
+          <li>Start Aquamacs without customizations:  In the Help menu, find <i>Diagnose and Report Bugs</i> / <i>Start Aquamacs without customizations</i>.
+	  A new Aquamacs will open, with default settings.  Can you reproduce the problem here?  If so, the steps needed to reproduce should go into your bug report.  If you can't reproduce, have a look at your personal settings.  The bug is either in the settings, or it is triggered by them.
+
+  <!--           <li>Start Aquamacs in Raw mode: from Terminal.app, call -->
+  <!--             <pre style="font-size:90%;"> -->
+  <!-- /Applications/Aquamacs\ Emacs.app/Contents/MacOS/Aquamacs\ Emacs -Q -->
+  <!-- </pre>Has the bug gone away? Then it's likely to be a real bug in -->
+  <!-- Aquamacs. Report it to the  <a href="mailto:aquamacs-bugs@aquamacs.org"> -->
+  <!--       Aquamacs-bugs mailing list</a>, ideally using the "Send Bug Report" function in the Aquamacs Help menu. -->
+  <!--           </li> -->
+
+            <li>Is the bug still there, even when
+            running Aquamacs Emacs without your customizations?  If not,
+            have a look at your customizations in Preferences.el,
+            .emacs, the Plugins and other files in Library/Application
+            Support/Aquamacs Emacs/ (both in your user directory and in
+            the system-wide /Library directory).
+            Please identify the settings that cause the problem and
+            report them to us if you find that Aquamacs is at fault.
+  </li> </ol> </li>
+
+      
+            <!-- <li>Is the bug still there, even in Raw mode, that is, -->
+            <!-- running Aquamacs Emacs without most Aquamacs-specific parts? -->
+            <!-- It's likely to be a bug in GNU Emacs.  To report -->
+            <!-- the bug, use the "Send Bug Report" function in Aquamacs, but -->
+            <!-- send the e-mail off to the <a href= -->
+            <!-- "http://lists.gnu.org/mailman/listinfo/emacs-pretest-bug"> -->
+            <!-- GNU Emacs Pretest Bug mailing list</a>.</li> --> </ol> </li>
+
+      <li> Your bug reports will be archived and publicly
+        accessible.  We read every bug report, although we are unable to
+        respond to all of them.
+        <li>Update regularly. Consider using the <a href="nightlies.html">nightly builds from the source code repository</a>.</li>
+      
+    </div>
+  <footer>
+  <script src="assets/js/header.min.js"></script>
+</footer>
+ </body>
+</html>
