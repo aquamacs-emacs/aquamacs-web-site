@@ -16,7 +16,13 @@ npm i
 
 ## Local development
 
-To spin up a local web server with hot reloading for changes, run:
+Generate the `docs/` output folder before starting development with:
+
+```
+npm run build
+```
+
+Then, to spin up a local web server with hot reloading, run:
 
 ```
 npm run watch

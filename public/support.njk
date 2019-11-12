@@ -1,56 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head> 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77306-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-77306-1');
-  </script>
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-  <meta name="keywords" content="Emacs,Mac,OS X,OSX,Macosx,Aqua,Carbon,Cocoa,XEmacs,GNU" />
-  <meta name="description" content="Aquamacs is an Emacs for Mac OS X that will feel mostly like an Aqua program - while still being a real GNU Emacs with all the ergonomy and extensibility you've come to expect from this world-class editor." />
-  <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <title>Aquamacs: Emacs for Mac OS X</title>
-  <!--[if lt IE 7.]>
-  <script defer type="text/javascript" src="assets/js/pngfix.js"></script>
-  <![endif]-->
-  <link href="assets/css/main.min.css" rel="stylesheet" type="text/css" />
-</head>
+{% include "_includes/header.njk" %}
 <body onload="processHighResImages();advanceStep();">
-    <header>
-    <div id="left" width="100%">
-        <a href="/" title="Aquamacs Home">
-            <img id=toplogo class=highRes style="position:absolute;" src="assets/images/aquamacs-logo.png" alt="Aquamacs Emacs" width=460 />
-        </a>
-    </div>
-    <nav>
-        <ul>
-            <li id="home">
-                <span><a href="/">Home</a></span>
-            </li>
-            <li id="about_menu">
-                <span><a href="about.html">What's Aquamacs?</a></span>
-            </li>
-            <li id="features_menu">
-                <span><a href="features.html">Features</a></span>
-            </li>
-            <li id="download">
-                <img src="assets/images/download-48.png" height="32" width="32"/>
-                <span><a href="download.html">Downloads</a></span>
-            </li>
-            <li id="support_menu">
-                <img src="assets/images/support-56.png" height="69" width="56"/>
-                <span><a href="support.html">Support</a></span>
-            </li>
-            <li id="development">
-                <img src="assets/images/development-56.png" height="32" width="32"/>
-                <span><a href="development.html">Development</a></span>
-            </li>
-        </ul>
-    </nav>
-</header>
+    {% include "_includes/navbar.njk" %}
     <div id="Content">
         <div id="content-profile">
             <div id="spotlight">
@@ -134,8 +84,6 @@
 
     </div>
 
-  <footer>
-  <script src="assets/js/header.min.js"></script>
-</footer>
+  {% include "_includes/footer.njk" %}
 </body>
 </html>
