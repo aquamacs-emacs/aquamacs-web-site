@@ -1,32 +1,29 @@
-body {
+* {
     font-family: Verdana, Tahoma, Helvetica, Geneva, sans-serif;
     font-size: 9.5pt; 
-    background-color: white;
-    margin: 0;
 }
-
-h1, h2, h3 {
+H1, H2, H3 {
     padding-top: 12px;
     padding-bottom: 8px;
     color: #1f1f1f;
+    font-family: Verdana, Tahoma, Helvetica, Geneva, sans-serif;
+}
+h1 { font-size: 150%; }
+h2 { font-size: 130%; }
+h3 { font-size: 120%; }
+BODY {
+   background-repeat: repeat-x; 
+   background-color: white;
+   /* background-color: #f2f2f2; */
+   margin: 0px;
 }
 
-h1 { 
-    font-size: 150%; 
-}
-
-h2 { 
-    font-size: 130%; 
-}
-
-h3 { 
-    font-size: 120%; 
-}
-
-a {
+A {
     color: #023D67;
 }
 
+
+/* size everything */
 #Content {
   width: 85%;
   margin:auto;
@@ -35,7 +32,7 @@ a {
   min-width: 800px;
 }
 
-header {
+#header {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
@@ -67,10 +64,10 @@ text-align: left;
     padding-left: 5px;
 }
 
-header #left {
+#header #left {
     float: left;
 /*
-    background-image: url(assets/images/aquamacs-text.png);
+    background-image: url(/images/aquamacs-text.png);
     background-repeat: no-repeat;
 */
     position: absolute;
@@ -80,12 +77,12 @@ header #left {
 }
 
 
-header #right {
+#header #right {
     position: absolute;
     right: 0px;
     width: 235px;
     height: 100px;
-    /* background-image: url(assets/images/gnu-faded.png);  */
+    /* background-image: url(/images/gnu-faded.png);  */
     background-repeat: no-repeat;
     display: inline;
 }
@@ -103,7 +100,7 @@ header #right {
    top: 0px;
 }
 #Content #nwcorner {
-    background-image: url(assets/images/corner-nw.png);    
+    background-image: url(/images/corner-nw.png);    
     float: left;
     height: 48px;
     width: 48px;
@@ -137,7 +134,7 @@ header #right {
     margin-top: -2px;
     margin: 0px;
     padding: 0px;
-    list-style-image: url(assets/images/bullet_go_light.png);       
+    list-style-image: url(/images/bullet_go_light.png);       
 }
 
 #content-profile UL LI A:hover,
@@ -149,7 +146,7 @@ header #right {
     margin-top: -2px;
     margin: 0px;
     padding: 0px;
-    list-style-image: url(assets/images/bullet_go.png);   
+    list-style-image: url(/images/bullet_go.png);   
 }
 
 #donate { 
@@ -169,7 +166,7 @@ header #right {
     -webkit-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    0px 0px 20px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         0px 0px 20px 0px rgba(50, 50, 50, 0.75);
-    /* background-image: url(assets/images/spotlight-bg-03.png); */
+    /* background-image: url(/images/spotlight-bg-03.png); */
     /*    background-position: top right; */
     background-repeat: no-repeat;
     margin-top: 25px;
@@ -282,6 +279,7 @@ header #right {
 
 #rightBox ul  { 
    margin: 0px;
+   display: grid;
 }
 
 #rightBox  LI A, #rightBox LI A:visited  { 
