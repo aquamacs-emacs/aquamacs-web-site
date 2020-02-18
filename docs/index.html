@@ -19,38 +19,22 @@
   <link href="assets/css/main.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body onload="processHighResImages();advanceStep();">
-    <header>
-    <div id="left" width="100%">
-        <a href="/" title="Aquamacs Home">
-            <img id=toplogo class=highRes style="position:absolute;" src="assets/images/aquamacs-logo.png" alt="Aquamacs Emacs" width=460 />
-        </a>
-    </div>
-    <nav>
+    <div id="header">
+    <a href="/">
+        <img id="toplogo" class="highRes" style="position:absolute;" border="0" src="assets/images/aquamacs-logo.png" alt="Aquamacs Emacs" width="460">
+    </a>
+    
+    <div id="rightBox">
         <ul>
-            <li id="home">
-                <span><a href="/">Home</a></span>
-            </li>
-            <li id="about_menu">
-                <span><a href="about.html">What's Aquamacs?</a></span>
-            </li>
-            <li id="features_menu">
-                <span><a href="features.html">Features</a></span>
-            </li>
-            <li id="download">
-                <img src="assets/images/download-48.png" height="32" width="32"/>
-                <span><a href="download.html">Downloads</a></span>
-            </li>
-            <li id="support_menu">
-                <img src="assets/images/support-56.png" height="69" width="56"/>
-                <span><a href="support.html">Support</a></span>
-            </li>
-            <li id="development">
-                <img src="assets/images/development-56.png" height="32" width="32"/>
-                <span><a href="development.html">Development</a></span>
-            </li>
+            <li id="home"<span><a href="/">Home</a></span></li>
+            <li id="about_menu"<span><a href="/about">What's Aquamacs?</a></span></li>
+            <li id="features_menu"<span><a href="/features">Features</a></span></li>
+            <li id="download"<span><a href="/download">Downloads</a></span></li>
+            <li id="support_menu"<span><a href="/support">Support</a></span></li>
+            <li id="development"<span><a href="/development">Development</a></span></li>
         </ul>
-    </nav>
-</header>
+    </div>
+</div>
     <div id="Content">
         <div id="content-profile">
              <div id="spotlight">
@@ -79,17 +63,15 @@
       <p>Aquamacs is a modern editor based on GNU Emacs. <a href="about.html">Read More</a></p>
 
       <div class="homedownload">
-      <!--#if expr='("${HTTP_USER_AGENT}"=~/PowerPC/) || ("${HTTP_USER_AGENT}" =~ /i386/)' --> 
-      <a href="https://sourceforge.net/projects/aquamacs/files/Releases/Aquamacs-Emacs-2.4-UB.dmg/download" download>
+      <a href="https://github-production-release-asset-2e65be.s3.amazonaws.com/163782/04912680-c1df-11e9-8988-54e6e443f3a2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200218T005854Z&X-Amz-Expires=300&X-Amz-Signature=c673515f8246601152937c025472de86effaceb6deb4c20c82ab6e5e41f83ddc&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DAquamacs-Emacs-3.5.dmg&response-content-type=application%2Foctet-stream" download>
         <img src="assets/images/download-48.png"/>
-        Download Version 2.4 (Universal Binary) for Mac OS X
+        Download Version 3.5 for Mac OS X (except El Capitan)
       </a>
-      <!--#else-->
-      <a href="https://github-production-release-asset-2e65be.s3.amazonaws.com/163782/04912680-c1df-11e9-8988-54e6e443f3a2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20191012%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191012T081320Z&X-Amz-Expires=300&X-Amz-Signature=1a9901434cf3373b03f6da30d5269ee1a8d7b909d980595a35a77848592c56af&X-Amz-SignedHeaders=host&actor_id=1501560&response-content-disposition=attachment%3B%20filename%3DAquamacs-Emacs-3.5.dmg&response-content-type=application%2Foctet-stream" download>
+      <br>
+      <a href="https://github-production-release-asset-2e65be.s3.amazonaws.com/163782/044fb100-04d8-11ea-9df7-0dc67b4664d3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200218T005810Z&X-Amz-Expires=300&X-Amz-Signature=7fdb332dcab7847985c8a0d6efedb26a0f1bab91a46af1df1f750f7d3b1f2b99&X-Amz-SignedHeaders=host&actor_id=1501560&response-content-disposition=attachment%3B%20filename%3DAquamacs-Emacs-3.5-El-Capitan.dmg&response-content-type=application%2Foctet-stream" download>
         <img src="assets/images/download-48.png"/>
-        Download Version 3.5 for Mac OS X
+        Download Version 3.5 for Mac OS X El Capitan (only)
       </a>
-      <!--#endif-->
     </div>
     <div class="homess">
         <a style="border:0;" href="assets/images/large-screenshot-dark.png" target="ss_extra" alt="Click for a large Aquamacs screenshot">
@@ -116,7 +98,7 @@
   </div>
 
   <footer>
-  <script src="assets/js/header.min.js"></script>
+  <script src="assets/js/header.js"></script>
 </footer>
 </body>
 </html>
