@@ -14,7 +14,7 @@
     "watch": "run-p serve watch:*",
     "watch:html": "onchange 'public/**/**.njk' -- npm run build:html",
     "watch:css": "onchange 'public/assets/**/**.scss' -- npm run build:css && npm run build:prefix",
-    "serve": "npm run build:assets && serve docs"
+    "serve": "npm run build:html && npm run build:assets && npm run build:css && serve docs"
   },
   "repository": {
     "type": "git",
