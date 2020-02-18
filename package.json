@@ -8,12 +8,13 @@
   "scripts": {
     "build": "run-p build:*",
     "build:html": "node scripts/generate-templates.js",
+    "build:assets": "node scripts/move-assets.js",
     "build:css": "mkdirp docs/assets/css && node-sass public/assets/sass/_index.scss > docs/assets/css/main.min.css --output-style compressed --omit-source-map-url",
     "build:prefix": "postcss docs/assets/css/main.min.css --use autoprefixer --dir docs/assets/css --no-map",
     "watch": "run-p serve watch:*",
     "watch:html": "onchange 'public/**/**.njk' -- npm run build:html",
     "watch:css": "onchange 'public/assets/**/**.scss' -- npm run build:css && npm run build:prefix",
-    "serve": "serve docs"
+    "serve": "npm run build:assets && serve docs"
   },
   "repository": {
     "type": "git",
