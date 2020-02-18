@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "run-p build:*",
-    "build:html": "node scripts/buildTemplates.js",
+    "build:html": "node scripts/generate-templates.js",
     "build:css": "mkdirp docs/assets/css && node-sass public/assets/sass/_index.scss > docs/assets/css/main.min.css --output-style compressed --omit-source-map-url",
     "build:prefix": "postcss docs/assets/css/main.min.css --use autoprefixer --dir docs/assets/css --no-map",
     "watch": "run-p serve watch:*",
