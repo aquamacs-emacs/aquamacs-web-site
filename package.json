@@ -45,10 +45,11 @@
     "nunjucks": "^3.2.1",
     "onchange": "^6.1.0",
     "postcss-cli": "^7.1.0",
+    "prettier": "^2.0.2",
     "serve": "^11.3.0"
   },
   "browserslist": [
     "last 2 major versions",
-    "ie 8"
+    "ie 11"
   ]
 }
