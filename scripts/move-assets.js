@@ -11,6 +11,7 @@ const ReadDir = require('fs-readdir-recursive');
     const outDirImages = Path.join(outDir, `images`);
     const outDirImagesLatex = Path.join(outDir, `images/latex`);
     const outDirJs = Path.join(outDir, `js`);
+    const outDirCGI = Path.join(__dirname, "../docs/cgi-bin");
 
     const files = ReadDir(assetDir);
 
@@ -20,12 +21,14 @@ const ReadDir = require('fs-readdir-recursive');
 
     if (
         !Fs.existsSync(outDirImages) ||
-        !Fs.existsSync(outDirJs) ||
-        !Fs.existsSync(outDirImagesLatex)
+            !Fs.existsSync(outDirJs) ||
+            !Fs.existsSync(outDirImagesLatex) ||
+            !Fs.existsSync(outDirCGI)
     ) {
         Fs.mkdirSync(outDirImages, { recursive: true });
         Fs.mkdirSync(outDirJs, { recursive: true });
         Fs.mkdirSync(outDirImagesLatex, { recursive: true });
+        Fs.mkdirSync(outDirCGI, { recursive: true });
     }
 
     files
@@ -41,6 +44,8 @@ const ReadDir = require('fs-readdir-recursive');
     // Extra root files
     const favIconFile = Path.join(__dirname, `../public`, `favicon.ico`);
     const manifestFile = Path.join(__dirname, `../public`, `manifest.json`);
+    const currentversionFile = Path.join(__dirname, `../public/cgi-bin`,
+                                         `currentversion.cgi`);
     await Fsp.copyFile(
         favIconFile,
         Path.join(__dirname, `../docs`, `favicon.ico`)
@@ -48,5 +53,9 @@ const ReadDir = require('fs-readdir-recursive');
     await Fsp.copyFile(
         manifestFile,
         Path.join(__dirname, `../docs`, `manifest.json`)
+    );
+    await Fsp.copyFile(
+        currentversionFile,
+        Path.join(__dirname, `../docs/cgi-bin`, `currentversion.cgi`)
     );
 })();
