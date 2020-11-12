@@ -23,7 +23,7 @@
   <title>Aquamacs: Emacs for Mac OS X</title>
 </head>
 <body onload="processHighResImages();advanceStep();">
-    <div id="header">
+  <div id="header">
     <a href="/">
         <img id="toplogo" class="highRes" style="position:absolute;" border="0" src="/img/aquamacs-logo.png" alt="Aquamacs Emacs" width="460">
     </a>
@@ -39,61 +39,32 @@
         </ul>
     </div>
 </div>
-    <div id="Content">
-        <div id="content-profile">
-             <div id="spotlight">
-              <h3>Feature Articles</h3>
-              <ul>
-                <li id="handle_latex" class=""><a id="link_latex" onmouseover="hoverImage('latex');" onmouseout="endHoverImage();" href="/latex/index.html" class="">LaTeX Editing</a></li>
-                <li id="handle_support" class=""><a id="link_support" onmouseover="hoverImage('support');" onmouseout="endHoverImage();" href="/support/index.html" class="">Support</a> 
-                (<a onmouseover="hoverImage('support');" onmouseout="endHoverImage();" href="http://www.emacswiki.org/emacs/AquamacsFAQ">FAQ</a>, 
-               <a onmouseover="hoverImage('support');" onmouseout="endHoverImage();" href="http://www.emacswiki.org/emacs/AquamacsEmacs">Wiki</a>)</li>
-              </ul>
-               </div>
-           </div>
-      <h1 style="font-size:200%;">The Emacs for the Mac</h1>
-      <div class="indexFeatureList">
-      <span class="title_big">An Editor for Text, HTML, LaTeX, </span><span class="title_regular">C++, Java, Python, </span><span class="title_small">R, Perl, Ruby, PHP, </span><span class="title_tiny">and more...</span>
-      <p>Aquamacs is a modern editor based on GNU Emacs. <a href="/about/index.html">Read More</a></p>
+  <div id="Content">
+  <!--#include virtual="content-profile.php?from=${DOCUMENT_NAME}" -->    
+  <h1>Spell-Checking in Aquamacs</h1>
 
-      <div class="homedownload">
-      <a href="https://github.com/aquamacs-emacs/aquamacs-emacs/releases/download/Aquamacs-3.5/Aquamacs-Emacs-3.5.dmg" download>
-        <img src="/img/download-48.png" alt="Aquamacs download icon"/>
-        Download Version 3.5 for Mac OS X (except El Capitan)
-      </a>
-      <br>
-      <a href="https://github.com/aquamacs-emacs/aquamacs-emacs/releases/download/elcap-3.5/Aquamacs-Emacs-3.5-El-Capitan.dmg" download>
-        <img src="/img/download-48.png" alt="Aquamacs El Cap download icon"/>
-        Download Version 3.5 for Mac OS X El Capitan (only)
-      </a>
-    </div>
-    <div class="homess">
-        <a style="border:0;" href="/img/large-screenshot-dark.png" target="ss_extra" >
-          <img src="/img/large-screenshot-dark.png" width=792 height=594 title="Aquamacs screenshot" alt="Aquamacs application screenshot">
-        </a>
-  <div id="News">
-    <h1>Project News</h1>
-         <strong>Aquamacs 3.5 released -- Mandatory update for macOS Mojave (macOS 10.14)</strong>
- <small class="date">2019-08-18</small>
-    <br />Aquamacs 3.5 has <a href="/download/index.html">been
-    released</a>.  
-         <strong>Aquamacs 3.4 released</strong>
- <small class="date">2018-07-27</small>
-    <br />Aquamacs 3.4 is based on Emacs 25.3 and the latest versions of many packages.  It is compatible with macOS 10.12 Sierra and comes with some critical improvements.
-  Download <a href="http://aquamacs.org/download/index.html">here</a>.
-  <br />
+  <p><b>Aquamacs 2.0 and onwards uses the Mac OSX spell-checking system.</b> (Alternative spelling engines can be configured.)</p>
+  <p>
+  Aquamacs 1.9 provides advanced spell-checking with high-quality dictionaries in more       than <a href="ftp://ftp.gnu.org/gnu/aspell/dict/0index.html" >85 languages</a>.
+  </p>
 
-          <strong>Aquamacs 3.3 released</strong>
-  <small class="date">2016-09-20</small>
-      <br />Aquamacs 3.3 is based on Emacs 25.1.  It is compatible with macOS 10.12 Sierra
-  and comes with many improvements.
-  <br />
+  <p>Spell-Checking is distributed separately from the main download, so you only   need to download and install the dictionaries that you actually need.  (If you   already have Aspell or Ispell installed, e.g. via MacPorts, Aquamacs will   automatically use that program and its dictionaries for spell-checking.)
+  <p>You can either install
+  <ul><li><a href="http://people.ict.usc.edu/~leuski/cocoaspell/">CocoAspell</a>,     a spell-checker that integrates with OS X and provides the same high-quality         dictionaries in other OS X applications.  A preference pane allows you to choose which installed dictionaries/variants are available in applications like Aquamacs.
+    <li> Additional dictionaries as needed. CocoAspell comes with an English     dictionary; other languages can be obtained from the <a href="ftp://ftp.gnu.org/gnu/aspell/dict/0index.html" >GNU Project</a>. Downloads require simple installation as explained <a href="http://people.ict.usc.edu/~leuski/cocoaspell/install_dict.html" >here</a>.
+  </ul>
+  <p>Or, just install
+  <ul>
+    <li>The base package Aspell for either PowerPC (<a     href="/spelling/aspell-PPC.tgz" >download 1.1MB</a>) or Intel (<a     href="/spelling/aspell-X86.tgz" >download 3.0MB</a>) Macs.
 
+    <li>One or more pre-built dictionaries.  Currently, only English is available,     for either PowerPC (<a href="/spelling/AspellEnglishDictionary-PPC.tgz" >download 217K</a>) or Intel (<a href="spelling/AspellEnglishDictionary-X86.tgz" >download 217K</a>).
+  </ul>
+  <p>Installer packages designed by Anton Leuski at USC. Aspell is a     spell-checking engine provided by the GNU Project.
+  If you can produce installer packages for other languages, please help the       Aquamacs project by <a href="/development/index.html" >contributing</a>.
   </div>
-
   <footer>
   <script src="/js/header.js"></script>
 </footer>
 
-</body>
+ </body>
 </html>

@@ -41,57 +41,83 @@
 </div>
     <div id="Content">
         <div id="content-profile">
-             <div id="spotlight">
-              <h3>Feature Articles</h3>
-              <ul>
-                <li id="handle_latex" class=""><a id="link_latex" onmouseover="hoverImage('latex');" onmouseout="endHoverImage();" href="/latex/index.html" class="">LaTeX Editing</a></li>
-                <li id="handle_support" class=""><a id="link_support" onmouseover="hoverImage('support');" onmouseout="endHoverImage();" href="/support/index.html" class="">Support</a> 
-                (<a onmouseover="hoverImage('support');" onmouseout="endHoverImage();" href="http://www.emacswiki.org/emacs/AquamacsFAQ">FAQ</a>, 
-               <a onmouseover="hoverImage('support');" onmouseout="endHoverImage();" href="http://www.emacswiki.org/emacs/AquamacsEmacs">Wiki</a>)</li>
-              </ul>
-               </div>
-           </div>
-      <h1 style="font-size:200%;">The Emacs for the Mac</h1>
-      <div class="indexFeatureList">
-      <span class="title_big">An Editor for Text, HTML, LaTeX, </span><span class="title_regular">C++, Java, Python, </span><span class="title_small">R, Perl, Ruby, PHP, </span><span class="title_tiny">and more...</span>
-      <p>Aquamacs is a modern editor based on GNU Emacs. <a href="/about/index.html">Read More</a></p>
+            <div id="spotlight">
+             <h3>Feature Articles</h3>
+             <ul>
+               <li id="handle_latex" class=""><a id="link_latex" onmouseover="hoverImage('latex');" onmouseout="endHoverImage();" href="/latex/index.html" class="">LaTeX Editing</a></li>
+               <li id="handle_support" class=""><a id="link_support" onmouseover="hoverImage('support');" onmouseout="endHoverImage();" href="/support/index.html" class="">Support</a>
+                   (<a onmouseover="hoverImage('support');" onmouseout="endHoverImage();" href="http://www.emacswiki.org/emacs/AquamacsFAQ">FAQ</a>,
+                   <a onmouseover="hoverImage('support');" onmouseout="endHoverImage();" href="http://www.emacswiki.org/emacs/AquamacsEmacs">Wiki</a>)</li>
+             </ul>
+            </div>
+        </div>
+        <h1>Downloads</h1>
 
-      <div class="homedownload">
-      <a href="https://github.com/aquamacs-emacs/aquamacs-emacs/releases/download/Aquamacs-3.5/Aquamacs-Emacs-3.5.dmg" download>
-        <img src="/img/download-48.png" alt="Aquamacs download icon"/>
-        Download Version 3.5 for Mac OS X (except El Capitan)
-      </a>
-      <br>
-      <a href="https://github.com/aquamacs-emacs/aquamacs-emacs/releases/download/elcap-3.5/Aquamacs-Emacs-3.5-El-Capitan.dmg" download>
-        <img src="/img/download-48.png" alt="Aquamacs El Cap download icon"/>
-        Download Version 3.5 for Mac OS X El Capitan (only)
-      </a>
-    </div>
-    <div class="homess">
-        <a style="border:0;" href="/img/large-screenshot-dark.png" target="ss_extra" >
-          <img src="/img/large-screenshot-dark.png" width=792 height=594 title="Aquamacs screenshot" alt="Aquamacs application screenshot">
-        </a>
-  <div id="News">
-    <h1>Project News</h1>
-         <strong>Aquamacs 3.5 released -- Mandatory update for macOS Mojave (macOS 10.14)</strong>
- <small class="date">2019-08-18</small>
-    <br />Aquamacs 3.5 has <a href="/download/index.html">been
-    released</a>.  
-         <strong>Aquamacs 3.4 released</strong>
- <small class="date">2018-07-27</small>
-    <br />Aquamacs 3.4 is based on Emacs 25.3 and the latest versions of many packages.  It is compatible with macOS 10.12 Sierra and comes with some critical improvements.
-  Download <a href="http://aquamacs.org/download/index.html">here</a>.
-  <br />
+        <p>Download the latest version of Aquamacs Emacs, as well as
+            older ones. This page also offers links to plugins for Aquamacs.</p>
 
-          <strong>Aquamacs 3.3 released</strong>
-  <small class="date">2016-09-20</small>
-      <br />Aquamacs 3.3 is based on Emacs 25.1.  It is compatible with macOS 10.12 Sierra
-  and comes with many improvements.
-  <br />
+        <a name="#d200000"> </a>
 
-  </div>
+        <div class="downloads">
+            <ul id="dl" style="line-height:200%;">
+                <img src="/img/down-22.png" alt="Download icon">
+                <a href="https://github.com/aquamacs-emacs/aquamacs-emacs/releases/download/Aquamacs-3.5/Aquamacs-Emacs-3.5.dmg" download>
+                    Aquamacs Emacs 3.5</a> (Mac OS 10.12+ Sierra or later)
+                or <a href="https://github.com/aquamacs-emacs/aquamacs-emacs/releases/download/elcap-3.5/Aquamacs-Emacs-3.5-El-Capitan.dmg" download>
+                    <img src="/img/down-22.png" alt="Aquamacs El Cap download icon"/>
+                    Download Version 3.5 for Mac OS El Capitan (only)
+                    <ul>
+                        <li><strong>official release: stable, reliable, recommended!</strong></li>
+                        <li>based on GNU Emacs 25.3</li>
+                        <li>For all Macs running OS X 10.12 (Sierra) or later, or 10.11 (El Capitan)</li>
 
-  <footer>
+                        <!--#if expr='("${HTTP_USER_AGENT}"=~/Intel/) || ("${HTTP_USER_AGENT}"=~/x86_64/)' -->
+                            <b>Recommended for your Mac.</b>
+                        <!--#endif -->
+
+                        <li><a href="#changelog">Change Log: What's new in version 3.5?</a></li>
+                    </ul></li>
+
+
+               <li class="download">
+                   <img src="/img/down-22.png" alt="Download icon">
+                   <a href="/nightlies/index.html">Nightly builds</a>
+                   <br>
+                   <ul>
+                       <li><string>Follow the development with our Nightly builds</strong></li>
+                   </ul>
+               </li>
+
+
+               <li class="download"><img src="/img/down-22.png" alt="Download icon">
+                   <a href="https://master.dl.sourceforge.net/project/aquamacs/Releases/Aquamacs-Emacs-2.4-UB.dmg" download>
+                       Aquamacs Emacs 2.4</a><br>
+                   <ul>
+                       <li><strong>last release available for older Macs</strong>
+                           <li>based GNU Emacs 23.4
+
+
+                               <li>For 32bit Intel Macs (OS X 10.6+, 64bit and 32bit Intel).
+
+                   </ul></li>
+
+
+        </div>
+        <h2>Requirements</h2>
+
+        <ul>
+            <li>from Aquamacs 3.5 on: Apple Mac OS X 10.11 (El Capitan) or later.</li>
+            <li>from Aquamacs 3.3 on: Apple Mac OS X 10.9 or later.</li>
+            <li>from Aquamacs 3.0 on: Apple Mac OS X 10.6 or later, and (for the
+                binary release) 64-bit Intel CPU (all modern Macs)</li>
+            <li>from Aquamacs 2.0 on: Apple Mac OS X 10.5.8 or later (Intel/PPC)</li>
+        </ul>
+        <a name="changelog"></a>
+        <h2>What's new in the latest release?</h2>
+        <div>
+            <a href="/nightlies/index.html#changelog-latest">Click here for the changes in the latest development builds.</a></div>
+
+        <footer>
   <script src="/js/header.js"></script>
 </footer>
 
