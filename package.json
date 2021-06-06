@@ -51,5 +51,6 @@
   "browserslist": [
     "last 2 major versions",
     "ie 11"
-  ]
+  ],
+  "dependencies": {}
 }
