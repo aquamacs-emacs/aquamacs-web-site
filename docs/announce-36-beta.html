@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77306-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-77306-1');
+  </script>
+  <meta charset="utf-8"/>
+  <meta name="keywords" content="Emacs, Mac, OS X, OSX, Macosx, Aqua, Carbon, Cocoa, XEmacs, GNU" />
+  <meta name="description" content="Aquamacs is an Emacs for Mac OS X that will feel mostly like an Aqua program - while still being a real GNU Emacs with all the ergonomy and extensibility you've come to expect from this world-class editor." />
+  <meta name="theme-color" content="#FFB83B">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="manifest" href="manifest.json">
+  <link href="assets/css/main.min.css" rel="stylesheet" type="text/css" />
+  <title>Aquamacs: Emacs for Mac OS X</title>
+</head>
+<body onload="processHighResImages();advanceStep();">
+    <div id="header">
+    <a href="/">
+        <img id="toplogo" class="highRes" style="position:absolute;" border="0" src="assets/images/aquamacs-logo.png" alt="Aquamacs Emacs" width="460">
+    </a>
+    
+    <div id="rightBox">
+        <ul>
+            <li id="home"<span><a href="index.html">Home</a></span></li>
+            <li id="about_menu"<span><a href="about.html">What's Aquamacs?</a></span></li>
+            <li id="features_menu"<span><a href="features.html">Features</a></span></li>
+            <li id="download"<span><a href="download.html">Downloads</a></span></li>
+            <li id="support_menu"<span><a href="support.html">Support</a></span></li>
+            <li id="development"<span><a href="development.html">Development</a></span></li>
+        </ul>
+    </div>
+</div>
+    <div id="Content">
+
+        <h1>Beta release of Aquamacs 3.6</h1>
+
+        <p>
+            The beta release of Aquamacs 3.6 is now available (<a href="https://aquamacs.s3.us-east-2.amazonaws.com/Aquamacs-3.6-beta.dmg">download</a>).
+        </p>
+        <p>
+            This release has fixes for many of the reported crashes
+            and other bugs, particularly for crashes on Catalina and
+            Big Sur. Aquamacs now prompts for needed permissions. The
+            Aquamacs app is now fully signed and notarized by Apple.
+            Several of the bundled Emacs Lisp packages have been
+            updated to more recent versions, most notably AUCTeX.
+        </p>
+        <p>
+            This version also include native support for libxml2 as
+            well as JPEG and SVG images.
+        </p>
+        <p>
+            This release is compiled to run on any Mac OS version from
+            El Capitan (10.11) forward.
+        </p>
+        <p>
+            At the moment, the 3.6 is compiled only for the x86
+            architecture. It seems to run fine on Apple Silicon system
+            with Rosetta. I'm going to try building it on Apple
+            Silicon during the beta period.
+        </p>
+        <p>
+            Known problems:
+            <ul>
+                <li> The help system doesn't work properly at first.
+                    Usually, Mac OS seems to build an index for it that works
+                    later. The out-of-the-box setup should work better in the
+                    final version of 3.6.</li>
+            </ul>
+        </p>
+        <p>
+            For anyone interested in hacking on Aquamacs or building
+            it themselves, the build system has been refactored
+            somewhat to make it easier to build for personal use. Look
+            in the aquamacs/build directory to find the scripts that
+            do the work.
+        </p>
+        <p>
+            If there are no major issues, I expect the final release
+            of 3.6 to be in late June or early July.
+        </p>
+        <p>
+            Aquamacs 3.6 will likely be the last release based on
+            Emacs 25. Beyond 3.6, Aquamacs will be updated to run with
+            a fairly recent version of Emacs 27 or Emacs 28, depending
+            on when the development catches up. The merge to catch up
+            with current Emacs will probably take a while, although
+            there's been a lot of behind-the-scenes work to set the
+            stage for that.
+        </p>
+        <p>
+            Please report any problems by email to <a
+                                                       href="mailto:aquamacs-bugs@aquamacs.org">aquamacs-bugs@aquamacs.org</a>
+            or on the
+            <a href="https://github.com/aquamacs-emacs/aquamacs-emacs/issues">Aquamacs
+                project issues page</a>.
+        </p>
+        <p>
+            Some of you have asked about donations. Thanks for your
+            interest in supporting Aquamacs development. The project
+            paused donations with the change in maintainers, and something
+            new may be set up after the 3.6 final release is
+            available. If you would like to be notified about that,
+            please email <a
+                             href="mailto:aquamacs-bugs@aquamacs.org">aquamacs-bugs@aquamacs.org</a>.
+        </p>
+    </div>
+    <footer>
+  <script src="assets/js/header.js"></script>
+</footer>
+</body>
+</html>
