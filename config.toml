@@ -1,3 +1,53 @@
-baseURL = 'http://example.org/'
+baseURL = "https://treese.github.io/aquamacs-web-site/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Aquamacs Emacs'
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+
+[params]
+  # For theme parameters, see
+  #stuff
+  # https://github.com/luizdepra/hugo-coder/wiki/Configurations
+  logo = '/img/aquamacs-logo@2x.png'
+  author = "Aquamacs Project"
+  info = "Emacs for the Mac"
+  description = "Aquamacs is an Emacs for Mac OS that feels like an Mac app - while still being a real GNU Emacs with all the effectiveness and extensibility you've come to expect from this world-class editor."
+  keywords = "Emacs, Mac, OS X, OSX, Macosx, Aqua, Carbon, Cocoa, GNU"
+
+  # favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  # For copyright footer
+  since = 2004
+
+  # enableTwemoji = true
+
+  colorScheme = "light"
+  hidecolorschemetoggle = false
+
+  # Configuration for custom CSS, SCSS, or JS files
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Features"
+  weight = 2
+  url = "features/"
+[[menu.main]]
+  name = "Downloads"
+  weight = 3
+  url = "downloads/"
+[[menu.main]]
+  name = "Support"
+  weight = 4
+  url = "support/"
+[[menu.main]]
+  name = "Development"
+  weight = 5
+  url = "development/"
