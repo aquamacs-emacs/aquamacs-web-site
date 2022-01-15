@@ -1,0 +1,190 @@
+#+TITLE: Features: Why Use Aquamacs?
+#+URL: /features
+#+ALIASES[]: /features.html
+
+* Aquamacs. Finally a GNU Emacs that feels like home.
+   :PROPERTIES:
+   :CUSTOM_ID: aquamacs.-finally-a-gnu-emacs-that-feels-like-home.
+   :END:
+Get all the flexibility and variety of Emacs--- and the comfort of the
+modern graphical user interface that you're used to from other Mac
+applications.
+* Why use Aquamacs instead of a raw GNU Emacs?
+   :PROPERTIES:
+   :CUSTOM_ID: why-use-aquamacs-instead-of-a-raw-gnu-emacs
+   :END:
+Why use Aquamacs instead of the stock Carbon or X11 Emacs on the Mac?
+Here are some features that Aquamacs has to offer on top of all the
+advantages that come with Emacs:
+
+- *Fonts* just work, right from the menu: The Mac-standard font (Lucida
+  Grande) is the default for editing text, and the mono-spaced Monaco is
+  used to other modes. These fonts are nicely rendered with
+  antialiasing. Aquamacs offers a range of proportional and mono-spaced
+  fonts to choose from.
+
+- Aquamacs has a *standard Mac menu* with entries where you would expect
+  them, and recently used files are available from the File menu.
+
+- Aquamacs gives you all the *standard Mac shortcuts* like Apple-S,
+  Apple-C, Apple-V - everything that you're used to in addition to the
+  fast, traditional Emacs key bindings.
+
+- Aquamacs can organize the files that you're editing in *tabs*. This
+  preserves screen space but allows you to keep track of all those open
+  files easily. You've probably seen the tabs in Safari, Firefox or the
+  OS X Terminal program.
+
+- Aquamacs can open *a normal OS X window for each file* that is
+  opened - Emacs experts call such windows /frames/. Finally, Aquamacs
+  makes use of the capabilities of windows on modern graphical user
+  interfaces. This is configurable with a mouse-click - of course, You
+  can switch between the windows (frames) with the "Window"  menu.
+
+- *Perfect Team-play.* Clipboard operations interoperate with other Mac
+  apps. In Aquamacs, if you mark a chunk of text, it will NOT be
+  automatically copied into the clipboard - unlike in GNU Emacs. Just
+  like in any Mac  program, you can copy with the Apple-C command, and
+  then replace  another region by selecting it and hitting Apple-V
+  (Paste).
+
+- *Spell-Checking.* Aquamacs spell-checks your documents with the OS X
+  spell-checker, supporting more than a hundred languages and
+  system-wide user dictionaries.
+
+- *Unicode Support.* Aquamacs reads and writes files in all Unicode
+  variants. In addition to the input methods provided OS X, the Aquamacs
+  Multilingual Environment defines configuration settings for Chinese,
+  Japanese and Korean on top of the standard Mule.
+
+- *Printing just works* the way you expect it to - with a preview and
+  through the normal printing infrastructure.
+
+- *Meta Key Management:* since Emacs uses an extra modifier key that is
+  not on your keyboard, Aquamacs allows you to use the Option key. But
+  even when using Option for Meta you won't lose the ability to input
+  characters such as [ or \ with the most common non-English keyboard
+  layouts. Alternatively, you can also use just the right-hand side
+  Command or Option keys for Meta, or many others.
+
+- *Auto Faces:* You can define fonts and colors as defaults for a given
+  editing mode. That means that you can have customized designs for
+  different types of files you're editing. For example, you can easily
+  distinguish LaTeX files on the screen by their beige background color,
+  or use variable-width (proportional) fonts for text modes only, but
+  stick to fixed width, monospaced fonts for editing code.
+
+- It's a distribution that comes with *the latest goodies* pre-installed
+  so you can simply use them and get on with your life. No installation,
+  no setup needed. Here's what's included: AUCTeX for comfortable LaTeX
+  editing, ESS (Emacs speaks Statistics) as an interface to statistics
+  applications such as R, SPLUS etc., nXML for comfortable XML editing.
+  Other, smaller, packages provide support for a range of programming
+  languages and other formalisms. High-quality Java and Lisp support is
+  available via JDEE and SLIME, respectively. These can be installed
+  separately via the [[https://melpa.org/][MELPA]] repository.
+
+- Aquamacs offers *a dedicated manual* plus the good old Emacs manual
+  directly via Apple Help environment - you can search both of them
+  quickly with Spotlight and read the documentation comfortably.
+
+- A number of extensions to GNU Emacs are contained that would be
+  expected of any Mac program: they're small details that make your life
+  easier. For example, there is a "Reveal in Finder" function, or
+  another one to open new files in one of many popular modes. When you
+  double-click a file written in Aquamacs, it'll open in Aquamacs.
+  Drag&Drop works perfectly. You get a menu with recently edited files
+  without any configuration. Copy and Paste know about word boundaries,
+  inserting and deleting spaces where sensible (`smart-spacing-mode').
+
+- Aquamacs remains *extensible,* so you can use special syntax coloring
+  setups or enjoy embedded CVS, Git, Bazaar, SVN and Mercurial support,
+  a HTML markup menu and the like. Aquamacs is compatible with GNU
+  Emacs.
+
+- *Great Support*. A community around Aquamacs (and a larger one around
+  Emacs!) will help you out when you don't know how to do X. Just write
+  to the mailing list (but check the manuals first!)
+
+* Incomplete List of Keyboard Shortcuts
+   :PROPERTIES:
+   :CUSTOM_ID: incomplete-list-of-keyboard-shortcuts
+   :END:
+These shortcuts are in addition to all the Emacs shortcuts you might be
+used to.
+
+| *Shortcut* | *Elisp Command*                    | *Function*                                                                                      |
+| ⌘N       | new-frame-with-new-scratch       | Open a new empty window/frame                                                                 |
+| ⌘O       | mac-find-file-other-frame        | Open a new window/frame with a file                                                           |
+| ⇧⌘S      | mac-key-save-file-as             | Save as (using file panel)                                                                    |
+| ⇧⌘O      | mac-key-open-file-other-frame    | Find file in another frame (using file panel)                                                 |
+| ⌘A       | mark-whole-buffer                | Select all text                                                                               |
+| ⌘V       | cua-paste (yank)                 | Paste text                                                                                    |
+| ⌘C       | clipboard-kill-ring-save         | Copy text                                                                                     |
+| ⌘X       | clipboard-kill-region            | Cut text                                                                                      |
+| ⌘S       | mac-key-save-file                | Save file                                                                                     |
+| ⌘L       | goto-line                        | Go to specified line                                                                          |
+| ⌘F       | isearch-forward                  | Search                                                                                        |
+| ⌘G       | isearch-repeat-forward           | Repeat search                                                                                 |
+| ⌘W       | close-window                     | Close window                                                                                  |
+| ⌘M       | iconify-or-deiconify-frame       | Minimize window to the Dock                                                                   |
+| ⌘Q       | aquamacs-save-buffers-kill-emacs | Save file, exit program                                                                       |
+| ⌘Z       | undo                             | Undo                                                                                          |
+| ⇧⌘Z      | redo                             | Redo                                                                                          |
+| ⌘;       | spellcheck-now                   | Interactive spell-checking                                                                    |
+| ^;       | toggle-pass-option-to-system     | Toggle: allow input of special characters with Option key / use Option  key as Emacs Meta key |
+
+* Included Third-Party Packages
+   :PROPERTIES:
+   :CUSTOM_ID: included-third-party-packages
+   :END:
+Aquamacs 3.x is based on GNU Emacs 24. The following list is incomplete
+but gives an impression of what comes with Aquamacs.
+
+- applescript-mode (FUJIMOTO Hisakuni, Harley Gorrell)
+- AUCTeX (David Kastrup et al.)
+  LaTeX editing environment
+- color-theme (Jonadab, Xavier Maillard)
+  Color sets for frames
+- css-mode (Lawrence Mitchell, Alex Schröder)
+- ESS /(Emacs Speaks Statistics - for R, S and others)/
+- files+/frame+/autofit-frame etc. (Drew Adams) /comfortable frame
+  movements etc./
+- findr (David Bakhash) /Breadth-first file-finding facility for
+  (X)Emacs/
+- haskell-mode (Dave Love et al.)
+- html-helper-mode (Gian Uberto Lauri, Nelson Minar) /Great HTML editing
+  mode./
+- htmlize (Hrvoje Niksic) /Export to HTML/
+- javascript-mode (Peter Kruse)
+- [[http://jdee.sourceforge.net/][JDEE]] for Java (Paul Kinnucan)
+- matlab-mode (Matt Wette, Eric M. Ludlam)
+- nXML-mode (James Clark et al.)
+- pager (Mikael Sjödin, [[http://www.david-reitter.com/][David Reitter]])
+- par-align (Bob Weiner) - included but not activated
+- php-mode (Turadg Aleahmad)
+- [[http://bruda.ca/emacs-prolog/][prolog-mode]] (Stefan D. Bruda)
+- python-mode (Tim Peters, Barry A. Warsaw)
+- redo from XEmacs (Kyle E. Jones) /Undo/Redo/
+- rails (Dmitry Galisnky, Rezikov Peter)
+- ruby-mode
+- [[http://common-lisp.net/project/slime/][SLIME]] for Lisp (Helmut Eller, Eric Marsden, Luke Gorrie)
+- Smart-Drag-N-Drop (Seiji Zenitani) (not activated)
+- ssh (Noah Friedman)
+- utf-8m (Seiji Zenitani) /Asian filenames/
+- wikipedia-mode (Chong Yidong)
+- and some more.
+
+Aquamacs additionally activates a number of packages that are provided
+with the default emacs, such as cua-base, ibuffer, recentf. The GNU
+Emacs code-base is patched. Please see the CVS for the collection of
+patches and additional source-files.
+
+* Configuration: Tips and Tricks
+   :PROPERTIES:
+   :CUSTOM_ID: configuration-tips-and-tricks
+   :END:
+Please refer to the
+[[http://www.emacswiki.org/emacs/AquamacsEmacs/][Aquamacs Wiki]]. If you
+now some tricks yourself, please contribute them by clicking on "Edit
+this page" - no login / password necessary!

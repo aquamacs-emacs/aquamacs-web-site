@@ -1,0 +1,31 @@
+#+TITLE: Support
+#+URL: /support
+#+ALIASES[]: /support.html
+
+
+We'd love to hear from you: your ideas, your experiences, your problems
+with Aquamacs.
+
+**/Documentation/** is readily available---please look there before contacting us.
+
+- The Help menu has the Aquamacs manual
+- [[http://www.emacswiki.org/emacs/AquamacsEmacs/][Aquamacs Wiki]] page on the [[http://www.emacswiki.org][EmacsWiki]]. You may also use the [[http://www.emacswiki.org/emacs/AquamacsEmacs/][Aquamacs Wiki]] to add and
+  tips for customizing and improving Aquamacs.
+- Google: all our mailing lists are indexed.
+
+**/Bug reports/**
+
+- You can report bugs with the "Send Bug Report" function within Aquamacs, available from the Help menu or with ~M-x report-aquamacs-bug~.
+- Our [[file:reporting-bugs.html][Bug Reporting Guidelines]] suggest some ways to make them most helpful to the Aquamacs team.
+- If you are unable to use the bug reporting function, please send your bug report to the Aquamacs bug reports address by directly e-mailing [[mailto:aquamacs-bugs@aquamacs.org][aquamacs-bugs@aquamacs.org]] (no
+  subscription required).
+- [[http://groups.google.com/group/aquamacs-devel][Archives on Google Groups]]
+
+**/Questions/** should be directed to the Emacs-on-OS X mailing list.
+- [[http://email.esm.psu.edu/mailman/listinfo/macosx-emacs][Subscribe here]].
+- [[http://news.gmane.org/gmane.emacs.macintosh.osx][Archives on GMANE]]
+
+**/Developers/** can talk on the [[https://groups.google.com/forum/?fromgroups#!forum/aquamacs-devel][Aquamacs-devel mailing list]] (posters must subscribe). Concrete ideas and feature suggestions can be posted here, too.
+
+- [[https://groups.google.com/forum/?fromgroups#!forum/aquamacs-devel][Subscribe here]].
+- [[http://groups.google.com/group/aquamacs-devel][Archives on Google Groups]]
