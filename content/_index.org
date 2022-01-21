@@ -1,5 +1,4 @@
 #+TITLE: The Emacs for the Mac
-#+URL: /
 
 An Editor for Text, HTML, LaTeX, C++, Java, Python, R, Perl, Ruby, PHP, and more...
 
