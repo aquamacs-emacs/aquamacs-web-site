@@ -35,13 +35,7 @@ All mailing lists are public and you are welcome to join!
 If you want to test the latest developments in Aquamacs, download the
 nightly builds [[file:nightlies.html][here.]]
 ** Getting the source code
-   :PROPERTIES:
-   :CUSTOM_ID: getting-the-source-code
-   :END:
-*** Version Control Repository Access
-    :PROPERTIES:
-    :CUSTOM_ID: version-control-repository-access
-    :END:
+
 Compiling Aquamacs from the Git repository is easy. All you need is
 Apple's Developer Tools and OS X 10.4 or later, and
 [[http://git-scm.com/download][Git]]. We have a repository at
