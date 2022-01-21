@@ -76,8 +76,7 @@ advantages that come with Emacs:
 
 - It's a distribution that comes with *the latest goodies* pre-installed
   so you can simply use them and get on with your life. No installation,
-  no setup needed. Here's what's included: AUCTeX for comfortable LaTeX
-  editing, ESS (Emacs speaks Statistics) as an interface to statistics
+  no setup needed. Here's what's included: [[../latex][AUCTeX for comfortable LaTeX editing]], ESS (Emacs speaks Statistics) as an interface to statistics
   applications such as R, SPLUS etc., nXML for comfortable XML editing.
   Other, smaller, packages provide support for a range of programming
   languages and other formalisms. High-quality Java and Lisp support is
