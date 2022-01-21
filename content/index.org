@@ -1,6 +1,5 @@
 #+TITLE: The Emacs for the Mac
 
-
 An Editor for Text, HTML, LaTeX, C++, Java, Python, R, Perl, Ruby, PHP, and more...
 
 Aquamacs is a modern editor based on GNU Emacs. [[file:about][Read more]].
@@ -12,4 +11,3 @@ Aquamacs is a modern editor based on GNU Emacs. [[file:about][Read more]].
 [[down-22.png]] Download [[https://aquamacs.s3.us-east-2.amazonaws.com/Aquamacs-3.6-beta.dmg][Aquamacs 3.6-beta2]] beta version for Mac OS (see the [[aquamacs-36-beta][beta announcement]])
 
 [[large-screenshot-dark.png]]
-
