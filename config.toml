@@ -45,9 +45,9 @@ ignoreFiles = [ '~$' ]
   weight = 3
   url = "downloads/"
 [[menu.main]]
-  name = "Support"
+  name = "Help"
   weight = 4
-  url = "support/"
+  url = "Help/"
 [[menu.main]]
   name = "Development"
   weight = 5

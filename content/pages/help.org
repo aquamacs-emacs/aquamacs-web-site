@@ -1,7 +1,6 @@
-#+TITLE: Support
-#+URL: /support
-#+ALIASES[]: /support.html
-
+#+TITLE: Help & Support
+#+URL: /help
+#+ALIASES[]: /support /support.html /help.html
 
 We'd love to hear from you: your ideas, your experiences, your problems
 with Aquamacs.
