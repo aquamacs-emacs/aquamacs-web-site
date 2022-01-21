@@ -1,0 +1,53 @@
+#+TITLE: Beta release of Aquamacs 3.6
+#+URL: /aquamacs-36-beta
+
+The beta release of Aquamacs 3.6 is now available ([[https://aquamacs.s3.us-east-2.amazonaws.com/Aquamacs-3.6-beta.dmg][download]]).
+
+This release has fixes for many of the reported crashes and other bugs,
+particularly for crashes on Catalina and Big Sur. Aquamacs now prompts
+for needed permissions. The Aquamacs app is now fully signed and
+notarized by Apple. Several of the bundled Emacs Lisp packages have been
+updated to more recent versions, most notably AUCTeX.
+
+This version also include native support for libxml2 as well as JPEG and
+SVG images.
+
+  This release is compiled to run on any Mac OS version from El Capitan (10.11) forward.
+
+At the moment, the 3.6 is compiled only for the x86 architecture. It
+seems to run fine on Apple Silicon system with Rosetta. I'm going to try
+building it on Apple Silicon during the beta period.
+
+Known problems:
+
+- The help system doesn't work properly at first. Usually, Mac OS seems
+  to build an index for it that works later. The out-of-the-box setup
+  should work better in the final version of 3.6.
+
+For anyone interested in hacking on Aquamacs or building it themselves,
+the build system has been refactored somewhat to make it easier to build
+for personal use. Look in the aquamacs/build directory to find the
+scripts that do the work.
+
+If there are no major issues, I expect the final release of 3.6 to be in
+late June or early July.
+
+Aquamacs 3.6 will likely be the last release based on Emacs 25. Beyond
+3.6, Aquamacs will be updated to run with a fairly recent version of
+Emacs 27 or Emacs 28, depending on when the development catches up. The
+merge to catch up with current Emacs will probably take a while,
+although there's been a lot of behind-the-scenes work to set the stage
+for that.
+
+Please report any problems by email to
+[[mailto:aquamacs-bugs@aquamacs.org][aquamacs-bugs@aquamacs.org]] or on
+the [[https://github.com/aquamacs-emacs/aquamacs-emacs/issues][Aquamacs
+project issues page]].
+
+Some of you have asked about donations. Thanks for your interest in
+supporting Aquamacs development. The project paused donations with the
+change in maintainers, and something new may be set up after the 3.6
+final release is available. If you would like to be notified about that,
+please email
+[[mailto:aquamacs-bugs@aquamacs.org][aquamacs-bugs@aquamacs.org]].
+
