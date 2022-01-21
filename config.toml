@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Aquamacs Emacs'
 theme = "hugo-coder"
 defaultcontentlanguage = "en"
+ignoreFiles = [ '~$' ]
 
 [params]
   # For theme parameters, see
