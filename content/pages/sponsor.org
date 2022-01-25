@@ -1,6 +1,6 @@
 #+TITLE: Sponsor the Aquamacs Project
 #+URL: /sponsor
-#+ALIASES: /donations.shtml /donations
+#+ALIASES[]: /donations.shtml /donations
 
 #+BEGIN_EXPORT html
 <iframe src="https://github.com/sponsors/aquamacs-emacs/card" title="Sponsor aquamacs-emacs" height="180" width="600" style="border: 0;"></iframe>
