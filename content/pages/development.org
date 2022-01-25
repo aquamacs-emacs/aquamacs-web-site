@@ -2,13 +2,7 @@
 #+URL: /development
 #+ALIASES[]: /development.html
 
-Development of the Aquamacs distribution is ongoing; the user interface
-is far from complete. In particular, such items as configuration
-systems, sliders and the mini-windows inside the windows will need
-further work. We welcome contributions from the community, whether they
-are elisp code that improves OS X UI compatibility, or patches to the
-mac-specific C code, which would be too early to submit for inclusion in
-the main Emacs development branch.
+Development of the Aquamacs distribution is ongoing. The current focus of development is updating Aquamacs to be based on the most recent release of the main GNU Emacs. I
 
 ** Mailing lists
    :PROPERTIES:
@@ -28,19 +22,12 @@ The following mailing lists are available:
   required to post)
 
 All mailing lists are public and you are welcome to join!
-** Nightly development builds
-   :PROPERTIES:
-   :CUSTOM_ID: nightly-development-builds
-   :END:
-If you want to test the latest developments in Aquamacs, download the
-nightly builds [[file:nightlies.html][here.]]
+** Development builds
+/Development builds will be back soon!/
+
 ** Getting the source code
 
-Compiling Aquamacs from the Git repository is easy. All you need is
-Apple's Developer Tools and OS X 10.4 or later, and
-[[http://git-scm.com/download][Git]]. We have a repository at
-[[http://github.com/davidswelt/aquamacs-emacs/tree/master][GitHub]], and
-all source code can be checked out via Git. You can get a shallow
+Compiling Aquamacs from the Git repository is (relatively) easy. You need Apple's XCode and a few things from the [[https://brew.sh/][Homebrew]] package manager.  The code is available from GitHub at [[https://github.com/aquamacs-emacs/aquamacs-emacs][Aquamacs Emacs]]. You can get a shallow
 (quick) checkout,
 
 ~git clone --depth 3 https://github.com/aquamacs-emacs/aquamacs-emacs~
