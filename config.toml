@@ -1,7 +1,7 @@
 baseURL = "https://treese.github.io/aquamacs-web-site/"
 languageCode = 'en-us'
 title = 'Aquamacs Emacs'
-theme = "hugo-coder"
+theme = "hugo-coder-theme-aquamacs"
 defaultcontentlanguage = "en"
 ignoreFiles = [ '~$' ]
 
