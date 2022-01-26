@@ -1,4 +1,4 @@
-baseURL = "https://treese.github.io/aquamacs-web-site/"
+baseURL = "https://aquamacs.org/"
 languageCode = 'en-us'
 title = 'Aquamacs Emacs'
 theme = "hugo-coder-theme-aquamacs"
