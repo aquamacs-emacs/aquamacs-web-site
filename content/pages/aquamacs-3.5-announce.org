@@ -1,0 +1,4 @@
+#+TITLE: Aquamacs 3.5 now available
+#+DATE: 2019-08-18
+
+Aquamacs 3.5 is now [[https://aquamacs.org/download.html][available]]. This is a required update to run on macOS Mojave (macOS 10.14).

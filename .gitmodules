@@ -1,0 +1,3 @@
+[submodule "themes/hugo-coder-theme-aquamacs"]
+	path = themes/hugo-coder-theme-aquamacs
+	url = git@github.com:aquamacs-emacs/hugo-coder-theme-aquamacs.git

@@ -1,0 +1,17 @@
+#+TITLE: About Aquamacs
+#+URL: /about
+#+ALIASES[]: /about.html
+
+*Aquamacs* is a user-friendly build of the powerful [[https://www.gnu.org/software/emacs/emacs.html][Emacs]] text editor. Aquamacs integrates with the Mac and offers the same comforts that any application on the Mac provides. Yet, it comes with all the ergonomics and extensibility you've come to expect from GNU Emacs. Most of the development on Aquamacs since its beginning in 2004 was done by [[http://david-reitter.com][David Reitter]], based on GNU Emacs by Richard Stallman and many others.
+
+The current maintainer of Aquamacs is Win Treese (treese@acm.org).
+
+Aquamacs has been available for well over a decade and is used daily by thousands of academics, programmers, and authors. It is backed by two strong communities: Aquamacs users, and Emacs enthusiasts on all computing platforms (GNU/Linux/Unix, Windows, Mac).
+
+*What's Emacs?* Emacs is a text editor of legendary power and configurability, but it also has an enormously complex user interface. One advantage of it is: no matter what operating system you run Emacs on, you'll always get the same interface. The big challenge: if you use a number of applications on your Mac, one of them is Emacs, you'll have to switch gears when you switch to Emacs.
+
+*Aquamacs is better.* We support the standard Mac user interface that you've come to love. For instance, in addition to traditional Emacs shortcuts like C-x C-f (open a new file), Aquamacs understands Command-O. Aquamacs behaves like a modern application on Mac (or Windows) when it comes to selecting, copying, pasting texts within Aquamacs or in between applications. Aquamacs offers nice, smooth fonts. Asian input methods work. It's easy to install and runs out-of-the box with no configuration. And all is built on GNU Emacs, so you can use your favorite Emacs packages! Check the [[/features][Features section]] if you want to know more.
+
+*Who made it?* Aquamacs has been adapted from GNU Emacs by David Reitter, aided by enthusiastic users and Emacs experts and is now maintained by Win Treese.  In the earlier stages of the project Nathaniel Cunningham contributed features such as native spell-checking and window tabs. Project co-founder Kevin Walzer created easy-to-understand manuals. Many people have contributed directly and indirectly to Aquamacs, including those who wrote the  bundled packages and, of course, Emacs itself. GNU Emacs has a long history that began over forty years ago, primarily driven by the efforts of GNU founder Richard M. Stallman. GNU Emacs was first been ported to the Mac by Andrew Choi, the Cocoa port was written by Adrian Robert and colleagues, and much Mac development of Emacs was done by Yamamoto Mitsuharu.
+
+*The website.* This web site has evolved over time, with earlier designs derived from the work of Ted Roden. We use icons from the [[http://famfamfam.com/lab/icons/silk/][Silk Icon Set]] along with some designed by [[https://www.everaldo.com/about][Everaldo Coelho]].

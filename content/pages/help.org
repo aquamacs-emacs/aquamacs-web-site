@@ -1,0 +1,42 @@
+#+TITLE: Help & Support
+#+URL: /help
+#+ALIASES[]: /support /support.html /help.html
+
+We'd love to hear from you: your ideas, your experiences, your problems
+with Aquamacs.
+
+**/Documentation/** is readily available---please look there before contacting us.
+
+- The Help menu has the Aquamacs manual
+- Check out the [[http://www.emacswiki.org/emacs/AquamacsEmacs/][Aquamacs Wiki]] page on the [[http://www.emacswiki.org][EmacsWiki]]. You may also use the [[http://www.emacswiki.org/emacs/AquamacsEmacs/][Aquamacs Wiki]] to add and tips for customizing and improving Aquamacs.
+- Google: all our mailing lists are indexed.
+
+**/Bug reports/**
+
+- You can send a bug report from within Aquamacs using ~Help->Diagnose and Report Bug->Send Bug report...~ or with  ~M-x report-aquamacs-bug~. This method includes some helpful details about the Aquamacs version and basic version information about your Mac.
+- Our [[file:reporting-bugs.html][Bug Reporting Guidelines]] suggest some ways to make them most helpful to the Aquamacs team.
+- If you are unable to use the bug reporting function, please send your bug report directly by email to  [[mailto:aquamacs-bugs@aquamacs.org][aquamacs-bugs@aquamacs.org]]
+
+If you have a problem with a particular mode and you're sure that the bug occurs when using that mode with a plain GNU Emacs (not Aquamacs), then try to get in touch with the developers of that mode.
+
+Before reporting a bug, see if it occurs in Aquamacs without your personal configuration. This can be done from the Help menu with ~Help->Diagnose and Report Bugs->Start Aquamacs without customizations~. A new Aquamacs will open, with default settings.  Can you reproduce the problem there?
+
+- If so, please include the steps needed to reproduce in your bug report.
+- If not, look at your personal settings. It's likely that the bug is either in the your settings is triggered by them.
+
+Depending on how you have things configured, the relevant settings may be in
+
+- ~~/Library/Preferences/Aquamacs Emacs/customizations.el~
+- ~~/Library/Preferences/Aquamacs Emacs/Preferences.el~
+- ~~/.emacs.el~
+- ~~/.emacs~
+- ~~/.emacs.d~
+
+*/Questions/* should be directed to the Emacs-on-OSX mailing list.
+- [[http://email.esm.psu.edu/mailman/listinfo/macosx-emacs][Subscribe here]].
+- [[http://news.gmane.org/gmane.emacs.macintosh.osx][Archives on GMANE]]
+
+**/Developers/** can talk on the [[https://groups.google.com/forum/?fromgroups#!forum/aquamacs-devel][Aquamacs-devel mailing list]] (posters must subscribe). Concrete ideas and feature suggestions can be posted here, too.
+
+- [[https://groups.google.com/forum/?fromgroups#!forum/aquamacs-devel][Subscribe here]].
+- [[http://groups.google.com/group/aquamacs-devel][Archives on Google Groups]]

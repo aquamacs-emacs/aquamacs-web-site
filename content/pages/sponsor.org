@@ -1,0 +1,28 @@
+#+TITLE: Sponsor the Aquamacs Project
+#+URL: /sponsor
+#+ALIASES[]: /donations.shtml /donations
+
+#+BEGIN_EXPORT html
+<iframe src="https://github.com/sponsors/aquamacs-emacs/card" title="Sponsor aquamacs-emacs" height="180" width="600" style="border: 0;"></iframe>
+#+END_EXPORT
+
+If you like Aquamacs, consider giving money or your time.
+
+Aquamacs is free software, but producing it takes a lot of time and also some real cash. For many years, a single developer has produced and combined the majority of the code that makes Aquamacs unique compared to a standard Emacs implementation. A number of other volunteers helped by means of bug reporting and making helpful suggestions, through documentation and support, and through contributing special packages. Today almost all the work is done by a single maintainer.
+
+Your sponsorship is an unrestricted gift---we do not promise anything in return, except that sponsorships will be ended if the work ends. However, we are grateful for your support.
+
+Sponsors may receive occasional emails about progress and plans for the project.
+
+If you would like to sponsor Aquamacs development, and Github Sponsors is inadequate in some way, please contact
+
+*Corporate Sponsorships or other special situations*. If you would like to make an institutional contribution to ensure the long-term viability of this project, or if GitHub Sponsors is inappropriate in some way, please contact the lead developer, Win Treese (treese@acm.org). *Your contribution counts. Many thanks!*
+
+* Refund Policy
+Gifts, sponsorships, and donations to the Aquamacs project are non-refundable.
+* Privacy Policy for Sponsorships
+Aquamacs uses GitHub for hosting the project's source code repositories, releases, web site, and sponsorships. For those resources, we rely on the [[https://docs.github.com/en/github/site-policy/github-privacy-statement][GitHub Privacy Statement]].
+
+Beyond that, the Aquamacs project will not provide personal details to third parties, nor will it allow the use of your personal details for marketing on behalf of third parties. The project may store your personal details to facilitate communications with its sponsors and other project-related communications through e-mail.
+* Contact
+Please contact treese@acm.org with any concerns about the Aquamacs project. For technical support, see the [[/help][Help & Support resources]].
