@@ -1,0 +1,134 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=content-language content="en">
+<meta name=color-scheme content="light dark">
+<meta name=author content="Aquamacs Project">
+<meta name=description content="Reporting problems with Aquamacs   Bug reports are sent to the Aquamacs-bugs mailbox using the &#34;Send Bug Report&#34; function in the Aquamacs Help / Diagnose and Report Bug menu. If you have a problem with a particular mode and you're sure that the bug occurs when using that mode with a plain GNU Emacs (not Aquamacs), then try to get in touch with the developers of that mode. Do not send bug reports to the Emacs on OS X mailing list.">
+<meta name=keywords content="Emacs,Mac,OS X,OSX,Macosx,Aqua,Carbon,Cocoa,GNU">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Reporting problems with Aquamacs">
+<meta name=twitter:description content="Reporting problems with Aquamacs   Bug reports are sent to the Aquamacs-bugs mailbox using the &#34;Send Bug Report&#34; function in the Aquamacs Help / Diagnose and Report Bug menu. If you have a problem with a particular mode and you're sure that the bug occurs when using that mode with a plain GNU Emacs (not Aquamacs), then try to get in touch with the developers of that mode. Do not send bug reports to the Emacs on OS X mailing list.">
+<meta property="og:title" content="Reporting problems with Aquamacs">
+<meta property="og:description" content="Reporting problems with Aquamacs   Bug reports are sent to the Aquamacs-bugs mailbox using the &#34;Send Bug Report&#34; function in the Aquamacs Help / Diagnose and Report Bug menu. If you have a problem with a particular mode and you're sure that the bug occurs when using that mode with a plain GNU Emacs (not Aquamacs), then try to get in touch with the developers of that mode. Do not send bug reports to the Emacs on OS X mailing list.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://aquamacs.org/reporting-bugs/"><meta property="article:section" content="pages">
+<title>
+Reporting problems with Aquamacs · Aquamacs Emacs
+</title>
+<link rel=canonical href=https://aquamacs.org/reporting-bugs/>
+<link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
+<link rel=stylesheet href=/css/coder.min.820fb045b20a9ae7c2618aa9877d99ca511571718712ddb04def829fb4370a4e.css integrity="sha256-gg+wRbIKmufCYYqph32ZylEVcXGHEt2wTe+Cn7Q3Ck4=" crossorigin=anonymous media=screen>
+<link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32>
+<link rel=icon type=image/png href=/img/favicon-16x16.png sizes=16x16>
+<link rel=apple-touch-icon href=/images/apple-touch-icon.png>
+<link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.92.0">
+</head>
+<body class="preload-transitions colorscheme-light">
+<div class=float-container>
+<a id=dark-mode-toggle class=colorscheme-toggle>
+<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
+</a>
+</div>
+<main class=wrapper>
+<nav class=navigation>
+<section class=container>
+<a class=navigation-title href=/>
+<img src=/img/aquamacs-logo@2x.png alt="Aquamacs logo" width=260>
+</a>
+<input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle>
+<i class="fa fa-bars fa-fw" aria-hidden=true></i>
+</label>
+<ul class=navigation-list>
+<li class=navigation-item>
+<a class=navigation-link href=/about/>About</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/features/>Features</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/downloads/>Downloads</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/help/>Help</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/development/>Development</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/sponsor/>Sponsor</a>
+</li>
+</ul>
+</section>
+</nav>
+<div class=content>
+<section class="container page">
+<article>
+<header>
+<h1 class=title>
+<a class=title-link href=https://aquamacs.org/reporting-bugs/>
+Reporting problems with Aquamacs
+</a>
+</h1>
+</header>
+<div id=outline-container-headline-1 class=outline-2>
+<h2 id=headline-1>
+Reporting problems with Aquamacs
+</h2>
+<div id=outline-text-headline-1 class=outline-text-2>
+<p>
+Bug reports are sent to the <a href=mailto:aquamacs-bugs@aquamacs.org>Aquamacs-bugs mailbox</a> using the "Send Bug Report" function in the Aquamacs <em>Help / Diagnose and Report Bug</em> menu. If you have a problem with a particular mode and you're sure that the bug occurs when using that mode with a plain GNU Emacs (not
+Aquamacs), then try to get in touch with the developers of that mode. Do not send bug reports to the Emacs on OS X mailing list. If you know that the bug occurs in GNU Emacs, too, then report it to the <a href=mailto:bug-gnu-emacs@gnu.org>GNU Emacs Bug mailing list</a> instead. However you submit a bug, you must follow the points below before making a report!</p>
+<div id=outline-container-headline-2 class=outline-3>
+<h3 id=headline-2>
+Bug Reporting Procedure:
+</h3>
+<div id=outline-text-headline-2 class=outline-text-3>
+<p>If you encounter a bug while using a nightly build, you must run the
+following checks to determine the general source of the bug:</p>
+<ol>
+<li>Ensure you're using the latest <a href=/downloads.html>release</a> or a
+recent <a href=nightlies.html>nightly build</a>.</li>
+<li>Start Aquamacs without customizations: In the Help menu, find
+<em>Diagnose and Report Bugs</em> / <em>Start Aquamacs without customizations</em>.
+A new Aquamacs will open, with default settings. Can you reproduce
+the problem here? If so, the steps needed to reproduce should go into
+your bug report. If you can't reproduce, have a look at your personal
+settings. The bug is either in the settings, or it is triggered by
+them.</li>
+<li>Is the bug still there, even when running Aquamacs Emacs without your
+customizations? If not, have a look at your customizations in
+Preferences.el, .emacs, the Plugins and other files in
+Library/Application Support/Aquamacs Emacs/ (both in your user
+directory and in the system-wide /Library directory). Please identify
+the settings that cause the problem and report them to us if you find
+that Aquamacs is at fault.</li>
+</ol>
+<p>Your bug reports will be archived and publicly accessible. We read every
+bug report, although we are unable to respond to all of them.
+Update regularly. Consider using the <a href=nightlies.html>nightly
+builds from the source code repository</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<footer class=footer>
+<section class=container>
+©
+2004 -
+2022
+Aquamacs Project
+·
+Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.
+</section>
+</footer>
+</main>
+<script src=/js/coder.min.39a51230dce2ac866c049b52573e38bf60666af4bc63c1bdf203b9b2d95b1cd6.js integrity="sha256-OaUSMNzirIZsBJtSVz44v2BmavS8Y8G98gO5stlbHNY="></script>
+</body>
+</html>
