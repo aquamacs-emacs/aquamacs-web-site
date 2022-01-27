@@ -4,24 +4,79 @@
 
 Download the latest version of Aquamacs Emacs, as well as older ones.
 
-*** Stable recommended release
+** Current release
 Based on GNU Emacs 25.3
 
 #+ATTR_HTML: :alt Download icon :title Download
 [[../down-22.png]]
+[[https://github.com/aquamacs-emacs/aquamacs-emacs/releases/download/aquamacs-3.6/Aquamacs-3.6.dmg][Aquamacs Emacs 3.6]]
+
+** Older versions
+ #+ATTR_HTML: :alt Download icon :title Download
+ [[../down-22.png]]
 [[https://github.com/aquamacs-emacs/aquamacs-emacs/releases/download/Aquamacs-3.5/Aquamacs-Emacs-3.5.dmg][Aquamacs Emacs 3.5]] (Mac OS 10.12+ Sierra or later) or
 
 #+attr_html: alt: Download icon title: Download
 [[../down-22.png]]
 [[https://github.com/aquamacs-emacs/aquamacs-emacs/releases/download/elcap-3.5/Aquamacs-Emacs-3.5-El-Capitan.dmg][Download Version 3.5 for Mac OS El Capitan (only)]]
 
-[[#changelog][Change Log: What's new in version 3.5?]]
-
 /Development builds will be back soon./
 
-** System requirements
+** System requirements for Aquamacs 3.6
 :PROPERTIES:
 :CUSTOM_ID: requirements
 :END:
 
-- From Aquamacs 3.5 on: Apple Mac OS X 10.11 (El Capitan) or later.
+- Apple MacOS 10.11 (El Capitan) or later
+- Runs on both Intel and Apple Silicon (M1) processors (M1 under Rosetta)
+
+** Changes in Aquamacs 3.6
+
+This release has fixes for many of the reported crashes and other bugs. Aquamacs now prompts for needed permissions. The Aquamacs app is now fully signed and notarized by Apple. Several of the bundled Emacs Lisp packages have been updated to more recent versions, most notably AUCTeX.
+
+This version also includes native support for libxml2 as well as JPEG and SVG images.
+
+Aquamacs 3.6 is compiled to run on any Mac OS version from El Capitan (10.11) forward, although it is  compiled only for the x86 architecture. It runs fine on Apple Silicon (M1) system with Rosetta. There are changes needed to the core Emacs code for it to work on Apple Silicon, so native support will come with a future version (more on that below).
+
+Note that the help system may not work properly at first. Usually, Mac OS seems to build an index for it that works later.
+
+For anyone interested in hacking on Aquamacs or building it themselves, the build system has been refactored somewhat to make it easier to build for personal use. Look in the aquamacs/build directory to find the scripts that do the work.
+*** Updated external packages to current version
+  - filladapt
+  - findr
+  - highlight-indentation
+  - markdown-mode
+  - nlinum
+  - paredit
+  - smart-dnd
+  - ssh
+  - visual-basic-mode
+
+*** Detailed changes
+- Applied patch to correctly list colors on the Mac
+- Build with libxml2 since it is bundled with Xcode
+- Build is compatible back to 10.11 (El Capitan)
+- (For developers) The build system is more configurable for some
+  different development situations.
+- Work around crash in Save As dialogs. Emacs main will later
+  remove the problem code, so Aquamacs is temporarily patched to
+  ignore the special code for handling keys in the dialog.
+- Fixed issue #180: a crash when clicking on the menu bar.
+- Fixed issue #185: Add Mac OS permission requests for various
+  system operations, including AppleScript
+- Fixed issue #195: Backported fix for Mach port leak from Emacs (bug 38618)
+- Fixed issue #182: Aquamacs won't build on Catalina
+- Fixed issue #194: cmd-meta-h hides non-emacs frames
+- Fixed issue #178: Crash when deallocating image
+- Fixed issue #166: Updated ELPA package GPG keyring
+- Fixed issue #205: Updated gnutls configuration defaults
+- Fixed issue #169: Update AUCTeX to current version 12.3, with Aquamacs patches
+- Fixed issue #158: Don't offer to save *scratch* if there is no filename
+- Reworked some of the NSapp memory management to avoid various crashes
+- PR #208: (thanks to Michael Braun) Make display-mm-[height/width] return same values as Emacs-OSX. The effect of this is to make image display, especially LaTeX previews
+  in AUCTeX and Org, look good on Retina displays.
+- The build process is able to sign releases and notarize themwith Apple.
+- Added more automation to the process of building disk images for releases.
+- Fixed crashes involving cursorRects and toolbar updates (probably).
+- Fixed issue #218: Crash when a single full-screen frame is closed
+- Fix bug #224: M-x pylint throws an error
