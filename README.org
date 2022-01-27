@@ -1,0 +1,3 @@
+#+TITLE: README for Aquamacs Web Site
+
+This is the Hugo source material for the Aquamacs Emacs web site, currently hosted on GitHub Pages.
