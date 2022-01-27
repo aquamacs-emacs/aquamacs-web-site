@@ -56,3 +56,4 @@ ignoreFiles = [ '~$' ]
   name = "Sponsor"
   weight = 6
   url = "sponsor/"
+
