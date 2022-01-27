@@ -4,12 +4,12 @@ This version also include native support for libxml2 as well as JPEG and SVG ima
 Mailing lists Interested in Aquamacs? Subscribe and post to our developer mailing list with development questions, comments, and contributions.
 The following mailing lists are available:
 Aquamacs-devel: for developer discussion (subscription required to post) Emacs on OSX (Archives): for support questions from and interaction with users (subscription required to post) All mailing lists are public and you are welcome to join!</description></item><item><title>Downloads</title><link>https://aquamacs.org/downloads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aquamacs.org/downloads/</guid><description>Download the latest version of Aquamacs Emacs, as well as older ones.
-Stable recommended release Based on GNU Emacs 25.3
-Aquamacs Emacs 3.5 (Mac OS 10.12+ Sierra or later) or
+Current release Based on GNU Emacs 25.3
+Aquamacs Emacs 3.6
+Older versions Aquamacs Emacs 3.5 (Mac OS 10.12+ Sierra or later) or
 Download Version 3.5 for Mac OS El Capitan (only)
-Change Log: What&amp;#39;s new in version 3.5?
 Development builds will be back soon.
-System requirements From Aquamacs 3.5 on: Apple Mac OS X 10.</description></item><item><title>Editing LaTeX with Aquamacs</title><link>https://aquamacs.org/latex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aquamacs.org/latex/</guid><description>by Coen de Roover
+System requirements for Aquamacs 3.6 Apple MacOS 10.11 (El Capitan) or later Runs on both Intel and Apple Silicon (M1) processors (M1 under Rosetta) Changes in Aquamacs 3.</description></item><item><title>Editing LaTeX with Aquamacs</title><link>https://aquamacs.org/latex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aquamacs.org/latex/</guid><description>by Coen de Roover
 Most old-school Mac users would never think of using something for their LaTeX editing needs that brings up so many images of command-line hacking as Emacs does. In my personal opinion however, Emacs (with the help of the preview-latex and flyspell extensions) is one of the most advanced LaTeX editing environments available for the Mac. This is especially true for some of the open source projects such as Aquamacs that try to integrate Emacs more into the Mac operating system.</description></item><item><title>Features: Why Use Aquamacs?</title><link>https://aquamacs.org/features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aquamacs.org/features/</guid><description>Aquamacs. Finally a GNU Emacs that feels like home. Get all the flexibility and variety of Emacs— and the comfort of the modern graphical user interface that you&amp;#39;re used to from other Mac applications.
 Why use Aquamacs instead of a raw GNU Emacs? Why use Aquamacs instead of the stock Carbon or X11 Emacs on the Mac? Here are some features that Aquamacs has to offer on top of all the advantages that come with Emacs:</description></item><item><title>Help &amp; Support</title><link>https://aquamacs.org/help/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aquamacs.org/help/</guid><description>We&amp;#39;d love to hear from you: your ideas, your experiences, your problems with Aquamacs.
 Documentation is readily available—please look there before contacting us.
