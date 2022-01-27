@@ -1,6 +1,6 @@
 #+TITLE: Development
 #+URL: /development
-#+ALIASES[]: /development.html
+#+ALIASES[]: /development.html /development.shtml
 
 Development of the Aquamacs distribution is ongoing. The current focus of development is updating Aquamacs to be based on the most recent release of the main GNU Emacs. I
 
