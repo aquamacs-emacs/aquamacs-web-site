@@ -1,9 +1,11 @@
 #+TITLE: Sponsor the Aquamacs Project
 #+URL: /sponsor
-#+ALIASES[]: /donations.shtml /donations /donate
+#+ALIASES[]: /donations.shtml /donations /donate /donations.html /donate.html
+
+Click the "Sponsor" button to sponsor Aquamacs development via GitHub Sponsors.
 
 #+BEGIN_EXPORT html
-<iframe src="https://github.com/sponsors/aquamacs-emacs/card" title="Sponsor aquamacs-emacs" height="180" width="600" style="border: 0;"></iframe>
+<iframe src="https://github.com/sponsors/aquamacs-emacs/button" title="Sponsor aquamacs-emacs" height="35" width="116" style="border: 0;"></iframe>
 #+END_EXPORT
 
 If you like Aquamacs, consider giving money or your time.

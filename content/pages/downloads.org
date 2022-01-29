@@ -1,6 +1,6 @@
 #+TITLE: Downloads
 #+URL: /downloads
-#+ALIASES[]: /download.html /download /downloads.html
+#+ALIASES[]: /download.html /download /downloads.html /changelog-latest.html
 
 Download the latest version of Aquamacs Emacs, as well as older ones.
 
