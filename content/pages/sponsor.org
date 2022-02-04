@@ -16,8 +16,6 @@ Your sponsorship is an unrestricted gift---we do not promise anything in return,
 
 Sponsors may receive occasional emails about progress and plans for the project.
 
-If you would like to sponsor Aquamacs development, and Github Sponsors is inadequate in some way, please contact
-
 *Corporate Sponsorships or other special situations*. If you would like to make an institutional contribution to ensure the long-term viability of this project, or if GitHub Sponsors is inappropriate in some way, please contact the lead developer, Win Treese (treese@acm.org). *Your contribution counts. Many thanks!*
 
 * Refund Policy
