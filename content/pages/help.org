@@ -14,7 +14,7 @@ with Aquamacs.
 **/Bug reports/**
 
 - You can send a bug report from within Aquamacs using ~Help->Diagnose and Report Bug->Send Bug report...~ or with  ~M-x report-aquamacs-bug~. This method includes some helpful details about the Aquamacs version and basic version information about your Mac.
-- Our [[file:reporting-bugs.html][Bug Reporting Guidelines]] suggest some ways to make them most helpful to the Aquamacs team.
+- Our [[/reporting-bugs][Bug Reporting Guidelines]] suggest some ways to make them most helpful to the Aquamacs team.
 - If you are unable to use the bug reporting function, please send your bug report directly by email to  [[mailto:aquamacs-bugs@aquamacs.org][aquamacs-bugs@aquamacs.org]]
 
 If you have a problem with a particular mode and you're sure that the bug occurs when using that mode with a plain GNU Emacs (not Aquamacs), then try to get in touch with the developers of that mode.
