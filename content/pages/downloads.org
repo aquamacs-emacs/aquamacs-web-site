@@ -27,8 +27,10 @@ Based on GNU Emacs 25.3
 :CUSTOM_ID: requirements
 :END:
 
-- Apple MacOS 10.11 (El Capitan) or later
+- Apple MacOS 10.11 (Sierra) or later
 - Runs on both Intel and Apple Silicon (M1) processors (M1 under Rosetta)
+
+  /Note: if you are using Mac OS 10.11 (El Capitan), please continue to use the version of Aquamacs 3.5 for El Capitan linked above./
 
 ** Changes in Aquamacs 3.6
 
