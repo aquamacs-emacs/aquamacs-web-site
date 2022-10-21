@@ -137,7 +137,7 @@ used to.
    :PROPERTIES:
    :CUSTOM_ID: included-third-party-packages
    :END:
-Aquamacs 3.x is based on GNU Emacs 24. The following list is incomplete
+Aquamacs 3.6 (and newer) is based on GNU Emacs 25. The following list is incomplete
 but gives an impression of what comes with Aquamacs.
 
 - applescript-mode (FUJIMOTO Hisakuni, Harley Gorrell)
