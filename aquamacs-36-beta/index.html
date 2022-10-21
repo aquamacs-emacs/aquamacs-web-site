@@ -1,40 +1,151 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-language content="en"><meta name=color-scheme content="light dark"><meta name=author content="Aquamacs Project"><meta name=description content="The beta release of Aquamacs 3.6 is now available (download).
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=content-language content="en">
+<meta name=color-scheme content="light dark">
+<meta name=author content="Aquamacs Project">
+<meta name=description content="The beta release of Aquamacs 3.6 is now available (download).
  This release has fixes for many of the reported crashes and other bugs, particularly for crashes on Catalina and Big Sur. Aquamacs now prompts for needed permissions. The Aquamacs app is now fully signed and notarized by Apple. Several of the bundled Emacs Lisp packages have been updated to more recent versions, most notably AUCTeX.
- This version also include native support for libxml2 as well as JPEG and SVG images."><meta name=keywords content="Emacs,Mac,OS X,OSX,Macosx,Aqua,Carbon,Cocoa,GNU"><meta name=twitter:card content="summary"><meta name=twitter:title content="Beta release of Aquamacs 3.6"><meta name=twitter:description content="The beta release of Aquamacs 3.6 is now available (download).
+ This version also include native support for libxml2 as well as JPEG and SVG images.">
+<meta name=keywords content="Emacs,Mac,OS X,OSX,Macosx,Aqua,Carbon,Cocoa,GNU">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Beta release of Aquamacs 3.6">
+<meta name=twitter:description content="The beta release of Aquamacs 3.6 is now available (download).
  This release has fixes for many of the reported crashes and other bugs, particularly for crashes on Catalina and Big Sur. Aquamacs now prompts for needed permissions. The Aquamacs app is now fully signed and notarized by Apple. Several of the bundled Emacs Lisp packages have been updated to more recent versions, most notably AUCTeX.
- This version also include native support for libxml2 as well as JPEG and SVG images."><meta property="og:title" content="Beta release of Aquamacs 3.6"><meta property="og:description" content="The beta release of Aquamacs 3.6 is now available (download).
+ This version also include native support for libxml2 as well as JPEG and SVG images.">
+<meta property="og:title" content="Beta release of Aquamacs 3.6">
+<meta property="og:description" content="The beta release of Aquamacs 3.6 is now available (download).
  This release has fixes for many of the reported crashes and other bugs, particularly for crashes on Catalina and Big Sur. Aquamacs now prompts for needed permissions. The Aquamacs app is now fully signed and notarized by Apple. Several of the bundled Emacs Lisp packages have been updated to more recent versions, most notably AUCTeX.
- This version also include native support for libxml2 as well as JPEG and SVG images."><meta property="og:type" content="article"><meta property="og:url" content="https://aquamacs.org/aquamacs-36-beta/"><meta property="article:section" content="pages"><title>Beta release of Aquamacs 3.6 · Aquamacs Emacs</title><link rel=canonical href=https://aquamacs.org/aquamacs-36-beta/><link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin><link rel=stylesheet href=/css/coder.min.820fb045b20a9ae7c2618aa9877d99ca511571718712ddb04def829fb4370a4e.css integrity="sha256-gg+wRbIKmufCYYqph32ZylEVcXGHEt2wTe+Cn7Q3Ck4=" crossorigin=anonymous media=screen><link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/img/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png><meta name=generator content="Hugo 0.97.3"></head><body class="preload-transitions colorscheme-light"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/><img src=/img/aquamacs-logo@2x.png alt="Aquamacs logo" width=260></a>
+ This version also include native support for libxml2 as well as JPEG and SVG images.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://aquamacs.org/aquamacs-36-beta/"><meta property="article:section" content="pages">
+<title>
+Beta release of Aquamacs 3.6 · Aquamacs Emacs
+</title>
+<link rel=canonical href=https://aquamacs.org/aquamacs-36-beta/>
+<link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
+<link rel=stylesheet href=/css/coder.min.820fb045b20a9ae7c2618aa9877d99ca511571718712ddb04def829fb4370a4e.css integrity="sha256-gg+wRbIKmufCYYqph32ZylEVcXGHEt2wTe+Cn7Q3Ck4=" crossorigin=anonymous media=screen>
+<link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32>
+<link rel=icon type=image/png href=/img/favicon-16x16.png sizes=16x16>
+<link rel=apple-touch-icon href=/images/apple-touch-icon.png>
+<link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.91.2">
+</head>
+<body class="preload-transitions colorscheme-light">
+<div class=float-container>
+<a id=dark-mode-toggle class=colorscheme-toggle>
+<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
+</a>
+</div>
+<main class=wrapper>
+<nav class=navigation>
+<section class=container>
+<a class=navigation-title href=/>
+<img src=/img/aquamacs-logo@2x.png alt="Aquamacs logo" width=260>
+</a>
 <input type=checkbox id=menu-toggle>
-<label class="menu-button float-right" for=menu-toggle><i class="fa fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/about/>About</a></li><li class=navigation-item><a class=navigation-link href=/features/>Features</a></li><li class=navigation-item><a class=navigation-link href=/downloads/>Downloads</a></li><li class=navigation-item><a class=navigation-link href=/help/>Help</a></li><li class=navigation-item><a class=navigation-link href=/development/>Development</a></li><li class=navigation-item><a class=navigation-link href=/sponsor/>Sponsor</a></li></ul></section></nav><div class=content><section class="container page"><article><header><h1 class=title><a class=title-link href=https://aquamacs.org/aquamacs-36-beta/>Beta release of Aquamacs 3.6</a></h1></header><p>The beta release of Aquamacs 3.6 is now available (<a href=https://aquamacs.s3.us-east-2.amazonaws.com/Aquamacs-3.6-beta.dmg>download</a>).</p><p>This release has fixes for many of the reported crashes and other bugs,
+<label class="menu-button float-right" for=menu-toggle>
+<i class="fa fa-bars fa-fw" aria-hidden=true></i>
+</label>
+<ul class=navigation-list>
+<li class=navigation-item>
+<a class=navigation-link href=/about/>About</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/features/>Features</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/downloads/>Downloads</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/help/>Help</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/development/>Development</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/sponsor/>Sponsor</a>
+</li>
+</ul>
+</section>
+</nav>
+<div class=content>
+<section class="container page">
+<article>
+<header>
+<h1 class=title>
+<a class=title-link href=https://aquamacs.org/aquamacs-36-beta/>
+Beta release of Aquamacs 3.6
+</a>
+</h1>
+</header>
+<p>
+The beta release of Aquamacs 3.6 is now available (<a href=https://aquamacs.s3.us-east-2.amazonaws.com/Aquamacs-3.6-beta.dmg>download</a>).</p>
+<p>
+This release has fixes for many of the reported crashes and other bugs,
 particularly for crashes on Catalina and Big Sur. Aquamacs now prompts
 for needed permissions. The Aquamacs app is now fully signed and
 notarized by Apple. Several of the bundled Emacs Lisp packages have been
-updated to more recent versions, most notably AUCTeX.</p><p>This version also include native support for libxml2 as well as JPEG and
-SVG images.</p><p>This release is compiled to run on any Mac OS version from El Capitan (10.11) forward.</p><p>At the moment, the 3.6 is compiled only for the x86 architecture. It
+updated to more recent versions, most notably AUCTeX.</p>
+<p>
+This version also include native support for libxml2 as well as JPEG and
+SVG images.</p>
+<p>
+This release is compiled to run on any Mac OS version from El Capitan (10.11) forward.</p>
+<p>
+At the moment, the 3.6 is compiled only for the x86 architecture. It
 seems to run fine on Apple Silicon system with Rosetta. I'm going to try
-building it on Apple Silicon during the beta period.</p><p>Known problems:</p><ul><li>The help system doesn't work properly at first. Usually, Mac OS seems
+building it on Apple Silicon during the beta period.</p>
+<p>
+Known problems:</p>
+<ul>
+<li>
+<p>The help system doesn't work properly at first. Usually, Mac OS seems
 to build an index for it that works later. The out-of-the-box setup
-should work better in the final version of 3.6.</li></ul><p>For anyone interested in hacking on Aquamacs or building it themselves,
+should work better in the final version of 3.6.</p>
+</li>
+</ul>
+<p>For anyone interested in hacking on Aquamacs or building it themselves,
 the build system has been refactored somewhat to make it easier to build
 for personal use. Look in the aquamacs/build directory to find the
-scripts that do the work.</p><p>If there are no major issues, I expect the final release of 3.6 to be in
-late June or early July.</p><p>Aquamacs 3.6 will likely be the last release based on Emacs 25. Beyond
+scripts that do the work.</p>
+<p>
+If there are no major issues, I expect the final release of 3.6 to be in
+late June or early July.</p>
+<p>
+Aquamacs 3.6 will likely be the last release based on Emacs 25. Beyond
 3.6, Aquamacs will be updated to run with a fairly recent version of
 Emacs 27 or Emacs 28, depending on when the development catches up. The
 merge to catch up with current Emacs will probably take a while,
 although there's been a lot of behind-the-scenes work to set the stage
-for that.</p><p>Please report any problems by email to
+for that.</p>
+<p>
+Please report any problems by email to
 <a href=mailto:aquamacs-bugs@aquamacs.org>aquamacs-bugs@aquamacs.org</a> or on
 the <a href=https://github.com/aquamacs-emacs/aquamacs-emacs/issues>Aquamacs
-project issues page</a>.</p><p>Some of you have asked about donations. Thanks for your interest in
+project issues page</a>.</p>
+<p>
+Some of you have asked about donations. Thanks for your interest in
 supporting Aquamacs development. The project paused donations with the
 change in maintainers, and something new may be set up after the 3.6
 final release is available. If you would like to be notified about that,
 please email
-<a href=mailto:aquamacs-bugs@aquamacs.org>aquamacs-bugs@aquamacs.org</a>.</p></article></section></div><footer class=footer><section class=container>©
+<a href=mailto:aquamacs-bugs@aquamacs.org>aquamacs-bugs@aquamacs.org</a>.</p>
+</article>
+</section>
+</div>
+<footer class=footer>
+<section class=container>
+©
 2004 -
 2022
 Aquamacs Project
 ·
-Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.</section></footer></main><script src=/js/coder.min.8fb86376a16e684af472a329aef502dbebcfab65ce264e9750d144912947c602.js integrity="sha256-j7hjdqFuaEr0cqMprvUC2+vPq2XOJk6XUNFEkSlHxgI="></script></body></html>
+Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.
+</section>
+</footer>
+</main>
+<script src=/js/coder.min.39a51230dce2ac866c049b52573e38bf60666af4bc63c1bdf203b9b2d95b1cd6.js integrity="sha256-OaUSMNzirIZsBJtSVz44v2BmavS8Y8G98gO5stlbHNY="></script>
+</body>
+</html>

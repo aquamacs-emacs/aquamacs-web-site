@@ -1,23 +1,220 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-language content="en"><meta name=color-scheme content="light dark"><meta name=author content="Aquamacs Project"><meta name=description content="by Coen de Roover
-  Most old-school Mac users would never think of using something for their LaTeX editing needs that brings up so many images of command-line hacking as Emacs does. In my personal opinion however, Emacs (with the help of the preview-latex and flyspell extensions) is one of the most advanced LaTeX editing environments available for the Mac. This is especially true for some of the open source projects such as Aquamacs that try to integrate Emacs more into the Mac operating system."><meta name=keywords content="Emacs,Mac,OS X,OSX,Macosx,Aqua,Carbon,Cocoa,GNU"><meta name=twitter:card content="summary"><meta name=twitter:title content="Editing LaTeX with Aquamacs"><meta name=twitter:description content="by Coen de Roover
-  Most old-school Mac users would never think of using something for their LaTeX editing needs that brings up so many images of command-line hacking as Emacs does. In my personal opinion however, Emacs (with the help of the preview-latex and flyspell extensions) is one of the most advanced LaTeX editing environments available for the Mac. This is especially true for some of the open source projects such as Aquamacs that try to integrate Emacs more into the Mac operating system."><meta property="og:title" content="Editing LaTeX with Aquamacs"><meta property="og:description" content="by Coen de Roover
-  Most old-school Mac users would never think of using something for their LaTeX editing needs that brings up so many images of command-line hacking as Emacs does. In my personal opinion however, Emacs (with the help of the preview-latex and flyspell extensions) is one of the most advanced LaTeX editing environments available for the Mac. This is especially true for some of the open source projects such as Aquamacs that try to integrate Emacs more into the Mac operating system."><meta property="og:type" content="article"><meta property="og:url" content="https://aquamacs.org/latex/"><meta property="article:section" content="pages"><title>Editing LaTeX with Aquamacs · Aquamacs Emacs</title><link rel=canonical href=https://aquamacs.org/latex/><link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin><link rel=stylesheet href=/css/coder.min.820fb045b20a9ae7c2618aa9877d99ca511571718712ddb04def829fb4370a4e.css integrity="sha256-gg+wRbIKmufCYYqph32ZylEVcXGHEt2wTe+Cn7Q3Ck4=" crossorigin=anonymous media=screen><link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/img/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png><meta name=generator content="Hugo 0.97.3"></head><body class="preload-transitions colorscheme-light"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/><img src=/img/aquamacs-logo@2x.png alt="Aquamacs logo" width=260></a>
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=content-language content="en">
+<meta name=color-scheme content="light dark">
+<meta name=author content="Aquamacs Project">
+<meta name=description content="by Coen de Roover
+  Most old-school Mac users would never think of using something for their LaTeX editing needs that brings up so many images of command-line hacking as Emacs does. In my personal opinion however, Emacs (with the help of the preview-latex and flyspell extensions) is one of the most advanced LaTeX editing environments available for the Mac. This is especially true for some of the open source projects such as Aquamacs that try to integrate Emacs more into the Mac operating system.">
+<meta name=keywords content="Emacs,Mac,OS X,OSX,Macosx,Aqua,Carbon,Cocoa,GNU">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Editing LaTeX with Aquamacs">
+<meta name=twitter:description content="by Coen de Roover
+  Most old-school Mac users would never think of using something for their LaTeX editing needs that brings up so many images of command-line hacking as Emacs does. In my personal opinion however, Emacs (with the help of the preview-latex and flyspell extensions) is one of the most advanced LaTeX editing environments available for the Mac. This is especially true for some of the open source projects such as Aquamacs that try to integrate Emacs more into the Mac operating system.">
+<meta property="og:title" content="Editing LaTeX with Aquamacs">
+<meta property="og:description" content="by Coen de Roover
+  Most old-school Mac users would never think of using something for their LaTeX editing needs that brings up so many images of command-line hacking as Emacs does. In my personal opinion however, Emacs (with the help of the preview-latex and flyspell extensions) is one of the most advanced LaTeX editing environments available for the Mac. This is especially true for some of the open source projects such as Aquamacs that try to integrate Emacs more into the Mac operating system.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://aquamacs.org/latex/"><meta property="article:section" content="pages">
+<title>
+Editing LaTeX with Aquamacs · Aquamacs Emacs
+</title>
+<link rel=canonical href=https://aquamacs.org/latex/>
+<link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
+<link rel=stylesheet href=/css/coder.min.820fb045b20a9ae7c2618aa9877d99ca511571718712ddb04def829fb4370a4e.css integrity="sha256-gg+wRbIKmufCYYqph32ZylEVcXGHEt2wTe+Cn7Q3Ck4=" crossorigin=anonymous media=screen>
+<link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32>
+<link rel=icon type=image/png href=/img/favicon-16x16.png sizes=16x16>
+<link rel=apple-touch-icon href=/images/apple-touch-icon.png>
+<link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.91.2">
+</head>
+<body class="preload-transitions colorscheme-light">
+<div class=float-container>
+<a id=dark-mode-toggle class=colorscheme-toggle>
+<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
+</a>
+</div>
+<main class=wrapper>
+<nav class=navigation>
+<section class=container>
+<a class=navigation-title href=/>
+<img src=/img/aquamacs-logo@2x.png alt="Aquamacs logo" width=260>
+</a>
 <input type=checkbox id=menu-toggle>
-<label class="menu-button float-right" for=menu-toggle><i class="fa fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/about/>About</a></li><li class=navigation-item><a class=navigation-link href=/features/>Features</a></li><li class=navigation-item><a class=navigation-link href=/downloads/>Downloads</a></li><li class=navigation-item><a class=navigation-link href=/help/>Help</a></li><li class=navigation-item><a class=navigation-link href=/development/>Development</a></li><li class=navigation-item><a class=navigation-link href=/sponsor/>Sponsor</a></li></ul></section></nav><div class=content><section class="container page"><article><header><h1 class=title><a class=title-link href=https://aquamacs.org/latex/>Editing LaTeX with Aquamacs</a></h1></header><p>by <a href=http://prog.vub.ac.be/~cderoove/>Coen de Roover</a></p><p><img src=img/general-screenshot.png alt=img/general-screenshot.png title=img/general-screenshot.png></p><p>Most old-school Mac users would never think of using something for their LaTeX editing needs that brings up so many images of command-line hacking as Emacs does. In my personal opinion however, Emacs (with the help of the <a href=http://www.gnu.org/software/auctex/preview-latex.html>preview-latex</a> and <a href=http://www-sop.inria.fr/mimosa/Manuel.Serrano/flyspell/flyspell.html>flyspell</a> extensions) is one of the most advanced <a href=http://www.latex-project.org/>LaTeX</a> editing environments available for the Mac. This is especially true for some of the open source projects such as <a href=/>Aquamacs</a> that try to integrate Emacs more into the Mac operating system.</p><p>As a picture says more than a thousand words, this page collects screenshots showcasing some of the advanced LaTeX editing features I miss in other OS X offerings.</p><div id=outline-container-headline-1 class=outline-2><h2 id=headline-1>Aquamacs offers a tight integration with Mac OS X</h2><div id=outline-text-headline-1 class=outline-text-2><p>Many potential Emacs users might be scared away by the seemingly complex keyboard shortcuts. The <a href=/>Aquamacs</a> Emacs distribution however implements the standard OS X keyboard shortcuts and other interface conventions, <a href=/documentation/documentation.html>integrating</a> Emacs into the Aqua environment. Installation is also a breeze as the entire distribution comes in a single-click installer package.</p><p>You can continue using the keyboard shortcuts for copy-pasting you're
-accustomed to.</p><p><img src=img/menu_shortcuts.png alt=img/menu_shortcuts.png title=img/menu_shortcuts.png></p><p>The file menu even has a recent items entry.</p><p><img src=img/menu_shortcuts_recent.png alt=img/menu_shortcuts_recent.png title=img/menu_shortcuts_recent.png></p><p>And the Aquamacs menu icon is of course blessed with a more Mac-like
-look.</p><p><img src=img/icon_menu.png alt=img/icon_menu.png title=img/icon_menu.png></p></div></div><div id=outline-container-headline-2 class=outline-2><h2 id=headline-2>AUCTeX is already included</h2><div id=outline-text-headline-2 class=outline-text-2><p><a href=http://www.gnu.org/software/auctex/>AUCTeX</a> offers extra menus and shortcuts to make your LaTeX (and TeX) editing experience a breeze.</p></div></div><div id=outline-container-headline-3 class=outline-2><h2 id=headline-3>Advanced syntax coloring</h2><div id=outline-text-headline-3 class=outline-text-2><p>This screenshot shows the default syntax coloring applied to LaTeX
+<label class="menu-button float-right" for=menu-toggle>
+<i class="fa fa-bars fa-fw" aria-hidden=true></i>
+</label>
+<ul class=navigation-list>
+<li class=navigation-item>
+<a class=navigation-link href=/about/>About</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/features/>Features</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/downloads/>Downloads</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/help/>Help</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/development/>Development</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/sponsor/>Sponsor</a>
+</li>
+</ul>
+</section>
+</nav>
+<div class=content>
+<section class="container page">
+<article>
+<header>
+<h1 class=title>
+<a class=title-link href=https://aquamacs.org/latex/>
+Editing LaTeX with Aquamacs
+</a>
+</h1>
+</header>
+<p>
+by <a href=http://prog.vub.ac.be/~cderoove/>Coen de Roover</a></p>
+<p>
+<img src=img/general-screenshot.png alt=img/general-screenshot.png title=img/general-screenshot.png></p>
+<p>
+Most old-school Mac users would never think of using something for their LaTeX editing needs that brings up so many images of command-line hacking as Emacs does. In my personal opinion however, Emacs (with the help of the <a href=http://www.gnu.org/software/auctex/preview-latex.html>preview-latex</a> and <a href=http://www-sop.inria.fr/mimosa/Manuel.Serrano/flyspell/flyspell.html>flyspell</a> extensions) is one of the most advanced <a href=http://www.latex-project.org/>LaTeX</a> editing environments available for the Mac. This is especially true for some of the open source projects such as <a href=/>Aquamacs</a> that try to integrate Emacs more into the Mac operating system.</p>
+<p>
+As a picture says more than a thousand words, this page collects screenshots showcasing some of the advanced LaTeX editing features I miss in other OS X offerings.</p>
+<div id=outline-container-headline-1 class=outline-2>
+<h2 id=headline-1>
+Aquamacs offers a tight integration with Mac OS X
+</h2>
+<div id=outline-text-headline-1 class=outline-text-2>
+<p>
+Many potential Emacs users might be scared away by the seemingly complex keyboard shortcuts. The <a href=/>Aquamacs</a> Emacs distribution however implements the standard OS X keyboard shortcuts and other interface conventions, <a href=/documentation/documentation.html>integrating</a> Emacs into the Aqua environment. Installation is also a breeze as the entire distribution comes in a single-click installer package.</p>
+<p>
+You can continue using the keyboard shortcuts for copy-pasting you're
+accustomed to.</p>
+<p>
+<img src=img/menu_shortcuts.png alt=img/menu_shortcuts.png title=img/menu_shortcuts.png></p>
+<p>
+The file menu even has a recent items entry.</p>
+<p>
+<img src=img/menu_shortcuts_recent.png alt=img/menu_shortcuts_recent.png title=img/menu_shortcuts_recent.png></p>
+<p>
+And the Aquamacs menu icon is of course blessed with a more Mac-like
+look.</p>
+<p>
+<img src=img/icon_menu.png alt=img/icon_menu.png title=img/icon_menu.png></p>
+</div>
+</div>
+<div id=outline-container-headline-2 class=outline-2>
+<h2 id=headline-2>
+AUCTeX is already included
+</h2>
+<div id=outline-text-headline-2 class=outline-text-2>
+<p><a href=http://www.gnu.org/software/auctex/>AUCTeX</a> offers extra menus and shortcuts to make your LaTeX (and TeX) editing experience a breeze.</p>
+</div>
+</div>
+<div id=outline-container-headline-3 class=outline-2>
+<h2 id=headline-3>
+Advanced syntax coloring
+</h2>
+<div id=outline-text-headline-3 class=outline-text-2>
+<p>This screenshot shows the default syntax coloring applied to LaTeX
 documents. Note that the coloring goes beyond simply highlighting a
 predefined set of LaTeX commands. The argument of the <code>\emph</code> command is
 for instance set in italics. Also, the font size and weight of
-subsections varies according to their nesting.</p><p><img src=img/syntax_color_thumb.png alt=img/syntax_color_thumb.png title=img/syntax_color_thumb.png></p><p>While you're typing, paren matching will help you close all kinds of
-parens and braces correctly.</p><p><img src=img/paren_matching.png alt=img/paren_matching.png title=img/paren_matching.png></p><p>Text in a verbatim environment and arguments of the verb command are
-typeset in a typewriter font.</p><p><img src=img/syntax_color_verb.png alt=img/syntax_color_verb.png title=img/syntax_color_verb.png></p><p>Superscripts and subscripts are also rendered with the proper fonts.
-<img src=img/syntax_color_super_sub.png alt=img/syntax_color_super_sub.png title=img/syntax_color_super_sub.png></p></div></div><div id=outline-container-headline-4 class=outline-2><h2 id=headline-4>LaTeX-aware spell checking</h2><div id=outline-text-headline-4 class=outline-text-2><p>On-the-fly spell checking is available as you type. The spell checker is LaTeX-aware: it ignores the spelling of LaTeX commands, but will check arguments that are supposed to contain text. For instance, it will not mark the error in <code>\documentclass[a4paper]{artiIcle}</code>, but it will underline both errors in <code>\section[Short tiXtle]{Longer tiXtle}</code>.</p><p><img src=img/flyspell.png alt=img/flyspell.png title=img/flyspell.png></p><p>Note that some words are underlined in orange instead of red. These words are available in the British English dictionary, but not in the current one that is set to American English.</p><p><img src=img/flyspell_menu.png alt=img/flyspell_menu.png title=img/flyspell_menu.png></p></div></div><div id=outline-container-headline-5 class=outline-2><h2 id=headline-5>Navigate through LaTeX errors</h2><div id=outline-text-headline-5 class=outline-text-2><p>In case of a LaTeX error, you can easily see the error message and the
+subsections varies according to their nesting.</p>
+<p>
+<img src=img/syntax_color_thumb.png alt=img/syntax_color_thumb.png title=img/syntax_color_thumb.png></p>
+<p>
+While you're typing, paren matching will help you close all kinds of
+parens and braces correctly.</p>
+<p>
+<img src=img/paren_matching.png alt=img/paren_matching.png title=img/paren_matching.png></p>
+<p>
+Text in a verbatim environment and arguments of the verb command are
+typeset in a typewriter font.</p>
+<p>
+<img src=img/syntax_color_verb.png alt=img/syntax_color_verb.png title=img/syntax_color_verb.png></p>
+<p>
+Superscripts and subscripts are also rendered with the proper fonts.
+<img src=img/syntax_color_super_sub.png alt=img/syntax_color_super_sub.png title=img/syntax_color_super_sub.png></p>
+</div>
+</div>
+<div id=outline-container-headline-4 class=outline-2>
+<h2 id=headline-4>
+LaTeX-aware spell checking
+</h2>
+<div id=outline-text-headline-4 class=outline-text-2>
+<p>
+On-the-fly spell checking is available as you type. The spell checker is LaTeX-aware: it ignores the spelling of LaTeX commands, but will check arguments that are supposed to contain text. For instance, it will not mark the error in <code>\documentclass[a4paper]{artiIcle}</code>, but it will underline both errors in <code>\section[Short tiXtle]{Longer tiXtle}</code>.</p>
+<p>
+<img src=img/flyspell.png alt=img/flyspell.png title=img/flyspell.png></p>
+<p>
+Note that some words are underlined in orange instead of red. These words are available in the British English dictionary, but not in the current one that is set to American English.</p>
+<p>
+<img src=img/flyspell_menu.png alt=img/flyspell_menu.png title=img/flyspell_menu.png></p>
+</div>
+</div>
+<div id=outline-container-headline-5 class=outline-2>
+<h2 id=headline-5>
+Navigate through LaTeX errors
+</h2>
+<div id=outline-text-headline-5 class=outline-text-2>
+<p>
+In case of a LaTeX error, you can easily see the error message and the
 line on which the error occured side by side. A simple click of the
-button brings you to the next error.</p><p><img src=img/navigate_latex_errors.png alt=img/navigate_latex_errors.png title=img/navigate_latex_errors.png></p></div></div><div id=outline-container-headline-6 class=outline-2><h2 id=headline-6>Inline preview of LaTeX formulas and images</h2><div id=outline-text-headline-6 class=outline-text-2><p>My favourite feature is the inline preview of LaTeX formulas and images. It takes a while to generate all the previews for a large document, but the authors were kind enough to display these little work-in-progress triangles to keep you entertained.</p><p><img src=img/preview_working.png alt=img/preview_working.png title=img/preview_working.png></p><p>You can continue editing your document as usual. The previews for formulas and images will move along with the other text. This feature truly makes editing complicated documents a breeze.</p><p><img src=img/preview_finished.png alt=img/preview_finished.png title=img/preview_finished.png></p><p>For quick feedback about any change you made, you can easily toggle
-between the inline preview and the LaTeX code of an image or formula.</p><p><img src=img/preview_expanded.png alt=img/preview_expanded.png title=img/preview_expanded.png></p></div></div><div id=outline-container-headline-7 class=outline-2><h2 id=headline-7>Navigate through your labels and references</h2><div id=outline-text-headline-7 class=outline-text-2><p>The right-most window was displayed after clicking on the <code>\ref{fuzzyresolution}</code> reference while the bottom window was obtained by clicking on the <code>\label{fuzzyresolution}</code> label.</p><p><img src=img/navigate_references.png alt=img/navigate_references.png title=img/navigate_references.png></p></div></div></article></section></div><footer class=footer><section class=container>©
+button brings you to the next error.</p>
+<p>
+<img src=img/navigate_latex_errors.png alt=img/navigate_latex_errors.png title=img/navigate_latex_errors.png></p>
+</div>
+</div>
+<div id=outline-container-headline-6 class=outline-2>
+<h2 id=headline-6>
+Inline preview of LaTeX formulas and images
+</h2>
+<div id=outline-text-headline-6 class=outline-text-2>
+<p>My favourite feature is the inline preview of LaTeX formulas and images. It takes a while to generate all the previews for a large document, but the authors were kind enough to display these little work-in-progress triangles to keep you entertained.</p>
+<p>
+<img src=img/preview_working.png alt=img/preview_working.png title=img/preview_working.png></p>
+<p>
+You can continue editing your document as usual. The previews for formulas and images will move along with the other text. This feature truly makes editing complicated documents a breeze.</p>
+<p>
+<img src=img/preview_finished.png alt=img/preview_finished.png title=img/preview_finished.png></p>
+<p>
+For quick feedback about any change you made, you can easily toggle
+between the inline preview and the LaTeX code of an image or formula.</p>
+<p>
+<img src=img/preview_expanded.png alt=img/preview_expanded.png title=img/preview_expanded.png></p>
+</div>
+</div>
+<div id=outline-container-headline-7 class=outline-2>
+<h2 id=headline-7>
+Navigate through your labels and references
+</h2>
+<div id=outline-text-headline-7 class=outline-text-2>
+<p>
+The right-most window was displayed after clicking on the <code>\ref{fuzzyresolution}</code> reference while the bottom window was obtained by clicking on the <code>\label{fuzzyresolution}</code> label.</p>
+<p>
+<img src=img/navigate_references.png alt=img/navigate_references.png title=img/navigate_references.png></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<footer class=footer>
+<section class=container>
+©
 2004 -
 2022
 Aquamacs Project
 ·
-Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.</section></footer></main><script src=/js/coder.min.8fb86376a16e684af472a329aef502dbebcfab65ce264e9750d144912947c602.js integrity="sha256-j7hjdqFuaEr0cqMprvUC2+vPq2XOJk6XUNFEkSlHxgI="></script></body></html>
+Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.
+</section>
+</footer>
+</main>
+<script src=/js/coder.min.39a51230dce2ac866c049b52573e38bf60666af4bc63c1bdf203b9b2d95b1cd6.js integrity="sha256-OaUSMNzirIZsBJtSVz44v2BmavS8Y8G98gO5stlbHNY="></script>
+</body>
+</html>
