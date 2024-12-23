@@ -1,0 +1,33 @@
+#+TITLE: Release of Aquamacs 4 alpha - version 3.9.1
+#+URL: /aquamacs-4-alpha
+
+The alpha release of Aquamacs 4 is now available ([[https://aquamacs.s3.us-east-2.amazonaws.com/Aquamacs-alpha.app.tgz][download]])
+********** TODO Add correct download link.
+********** END
+********** TODO List Emacs upgrade resources
+********** END
+
+Aquamacs 4 is big jump in the underlying version of Emacs, with little change in the Aquamacs-specific aspects that differ from Emacs. This alpha version is based on Emacs version 29.4, the current released version of Emacs. 
+
+In this case, "alpha" means a release that may have serious bugs. Your feedback would be valuable, but use at your own risk!
+
+The internal version number for the alpha release is 3.9.1, because of the way Aquamacs code parses version numbers. In this way, the final release of Aquamacs 4 will actually be reported as 4.0.
+
+Please report any problems by email to aquamacs-bugs@aquamacs.org, or on github at https://github.com/aquamacs-emacs/aquamacs-emacs/issues.
+
+Hardware and operating system support:
+
+This version of Aquamacs is distributed as a universal binary including compiled code for both Apple Silicon (ARM) processors and older Intel Macs. It should run on any version of Mac OS since 10.15 (Monterey), which was released in 2021.
+
+This version also include native library support for the image formats JPEG, SVG, and webp, as well as libxml2 and JSON.
+
+Configuration notes:
+
+In this alpha release, Aquamacs uses the directory ~~/Library/Preferences/Aquamacs Emacs beta~ for preferences, including downloaded packages from ELPA and MELPA, instead of the usual ~~/Library/Preferences/Aquamacs Emacs~. This is to keep the older Aquamacs data safe if you want to try using Aquamacs-alpha and with the option to switch back to Aquamacs 3.6. You might want to copy over the files from ~~/Library/Preferences/Aquamacs Emacs~ to the new directory to start things off, particularly ~Preferences.el~ and ~customizations.el~, along with the ~Packages~ directory if you use it.
+
+Known problems:
+
+- The spelling support is flaky. Sometimes ispell and flyspell seem to work, and sometimes they don't. This is expected to be fixed before the beta release.
+
+Other known problems with Aquamacs are in the GitHub issue tracker for the project at [[https://github.com/aquamacs-emacs/aquamacs-emacs/issues][Aquamacs issues]].
+
