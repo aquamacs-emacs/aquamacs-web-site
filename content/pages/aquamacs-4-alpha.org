@@ -11,7 +11,7 @@ In this case, "alpha" means a release that may have serious bugs, use at your ow
 
 The internal version number for the alpha release is 3.9.1, because of the way Aquamacs code parses version numbers. In this way, the final release of Aquamacs 4 will be reported as 4.0.
 
-Please report any problems by email to aquamacs-bugs@aquamacs.org, or on github at https://github.com/aquamacs-emacs/aquamacs-emacs/issues.
+Please report any problems by email to aquamacs-bugs@aquamacs.org, or on github at [[https://github.com/aquamacs-emacs/aquamacs-emacs/issues][https://github.com/aquamacs-emacs/aquamacs-emacs/issues]].
 
 * Hardware and operating system support
 
