@@ -1,4 +1,4 @@
-#+TITLE: Release of Aquamacs 4 alpha - version 3.9.1
+#+TITLE: Release of Aquamacs 4 alpha
 #+URL: /aquamacs-4-alpha
 
 The alpha release of Aquamacs 4 is now available ([[https://aquamacs.s3.us-east-2.amazonaws.com/Aquamacs-alpha.app.tgz][download]])
