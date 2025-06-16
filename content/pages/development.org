@@ -2,33 +2,38 @@
 #+URL: /development
 #+ALIASES[]: /development.html /development.shtml
 
-Development of the Aquamacs distribution is ongoing. The current focus of development is updating Aquamacs to be based on the most recent release of the main GNU Emacs. I
+Development of the Aquamacs distribution is ongoing. The current focus of development is updating Aquamacs to be based on the most recent release of the main GNU Emacs.
+
+Aquamacs version 4 is under development now. The final release will be based on Emacs 30.  A first alpha release based on Emacs 29.4 is available, with a follow-up alpha version in development to fix several known problems. Most of those are documented on the GitHub issue tracker linked below.
 
 ** Mailing lists
-   :PROPERTIES:
-   :CUSTOM_ID: mailing-lists
-   :END:
-Interested in Aquamacs? Subscribe and post to our
-[[http://lists.aquamacs.org/mailman/listinfo.cgi/aquamacs-devel][developer
-mailing list]] with development questions, comments, and contributions.
+:PROPERTIES:
+:CUSTOM_ID: mailing-lists
+:END:
+Interested in working on Aquamacs? Subscribe and post to our [[http://lists.aquamacs.org/mailman/listinfo.cgi/aquamacs-devel][developer mailing list]]  with development questions, comments, and contributions.
 
 The following mailing lists are available:
 
-- [[http://groups.google.com/group/aquamacs-devel][Aquamacs-devel]]: for
-  developer discussion (subscription required to post)
-- [[http://email.esm.psu.edu/mailman/listinfo/macosx-emacs][Emacs on
-  OSX]] ([[http://news.gmane.org/gmane.emacs.macintosh.osx][Archives]]):
-  for support questions from and interaction with users (subscription
+- [[http://groups.google.com/group/aquamacs-devel][aquamacs-devel]]: for developer discussion (subscription required to post)
+- [[http://email.esm.psu.edu/mailman/listinfo/macosx-emacs][Emacs on OSX]] ([[http://news.gmane.org/gmane.emacs.macintosh.osx][Archives]]): for support questions from and interaction with users (subscription
   required to post)
 
 All mailing lists are public and you are welcome to join!
+** Bug tracking
+The bug tracker for all Aquamacs versions is at [[https://github.com/aquamacs-emacs/aquamacs-emacs/issues][Aquamacs issues]] on GitHub.
+
+Issues with the web site can be reported at [[https://github.com/aquamacs-emacs/aquamacs-web-site/issues][Aquamacs web site issues]] on GitHub.
+
 ** Development builds
 /Development builds will be back soon!/
+** Contributing to the web site
+
+The Aquamacs web site is written in Org mode files, compiled for the web using [[https://gohugo.io/][Hugo]], and hosted on GitHub pages. You can make suggestions and contribute changes to these web pages at
+using the [[https://github.com/aquamacs-emacs/aquamacs-web-site/issues][Aquamacs web site issue tracker]], with reports or pull requests.
 
 ** Getting the source code
 
-Compiling Aquamacs from the Git repository is (relatively) easy. You need Apple's XCode and a few things from the [[https://brew.sh/][Homebrew]] package manager.  The code is available from GitHub at [[https://github.com/aquamacs-emacs/aquamacs-emacs][Aquamacs Emacs]]. You can get a shallow
-(quick) checkout,
+Compiling Aquamacs from the Git repository is (relatively) easy. You need Apple's XCode and a few things from the [[https://brew.sh/][Homebrew]] package manager.  The code is available from GitHub at [[https://github.com/aquamacs-emacs/aquamacs-emacs][Aquamacs Emacs]]. You can get a shallow (quick) checkout by using
 
 ~git clone --depth 3 https://github.com/aquamacs-emacs/aquamacs-emacs~
 
@@ -36,46 +41,31 @@ or, for a full checkout:
 
 ~git clone https://github.com/aquamacs-emacs/aquamacs-emacs~
 
-There's a [[http://github.com/davidswelt/aquamacs-emacs/tree/aquamacs3][web view of the Aquamacs repository]] which allows you to browse and download
-files.
-
-Refer to the [[http://www.emacswiki.org/emacs/BuildingAquamacs][BuildingAquamacs]] wiki page for instructions on how to build it. It's pretty much automatic.
+See the ~README~ file in the Aquamacs source code for information about compiling Aquamacs.
 
 Want to see the latest change log? [[/changelog-latest.html][Check this out...]]
+** Main branches
+The major branches for Aquamacs development are:
 
+- [main, aquamacs3] [[https://github.com/aquamacs-emacs/aquamacs-emacs][aquamacs-emacs/aquamacs-emacs: Aquamacs Emacs]] :: This is the source code for the public release version Aquamacs 3.6. It will change to the Aquamacs 4 version when it is ready.
+- [aquamacs-4-dev] [[https://github.com/aquamacs-emacs/aquamacs-emacs/tree/aquamacs-4-dev][aquamacs-emacs/aquamacs-emacs at aquamacs-4-dev]] :: This is the development branch for continuing work on Aquamacs 4. If you want to look at or contribute to current development, this is the one to track.
+- [aquamacs-4] [[https://github.com/aquamacs-emacs/aquamacs-emacs/tree/aquamacs4][aquamacs-emacs/aquamacs-emacs at aquamacs4]]  :: This will be the reference branch for Aquamacs 4 releases when they begin.
+
+Other branches are historical and will be cleaned up eventually.  
 ** Patches and other contributions
-*Your contributions are more than welcome!* Just send e-mail to
-aquamacs-devel.
+*Your contributions are more than welcome!* Just send e-mail to [[mailto:aquamacs-devel@googlegroups.com][aquamacs-devel@googlegroups.com]] or make a pull request on the appropriate branch (mainly aquamacs-4-dev).
 
 * Authors
-Aquamacs Emacs has been developed by [[http://www.david-reitter.com][David Reitter]]. GNU Emacs is the work of Richard Stallman and many other developers, including Andrew Choi, Yamamoto Mitsuharu, Adrian Robert who ported GNU Emacs to the Mac. Kevin Walzer co-founded the project and wrote the initial documentation. Nathaniel Cunningham contributed code for the tabbar, among other
-things. Sidney Markowitz contributed code. Adrian Chromenko and Jessica Walker contributed artwork.
+Aquamacs Emacs was originally developed primarily by [[http://www.david-reitter.com][David Reitter]]. GNU Emacs is the work of Richard Stallman and many other developers, including Andrew Choi, Yamamoto Mitsuharu, and Adrian Robert, who ported GNU Emacs to the Mac. Kevin Walzer co-founded the project and wrote the initial documentation. Nathaniel Cunningham contributed code for the tabbar, among other things. Sidney Markowitz contributed code. Adrian Chromenko and Jessica Walker contributed artwork. Many others have contributed to Aquamacs during its history.
 
-Aquamacs is currently maintained by Win Treese (treese@acm.org).Zerella.
+Aquamacs is currently maintained by Win Treese (treese@acm.org).
 
-We would also like to acknowledge the contributions of the authors of
-packages, whose source code and hints on public forums have already been
-integrated into the build.
+We would also like to acknowledge the contributions of the authors of the packages whose source code and hints on public forums have already been integrated into the build.
 
-The Aquamacs distribution of Emacs is released under the [[http://www.gnu.org/copyleft/gpl.html][GNU General Public License.]]
-Source code for the base build is a branch of GNU Emacs. Most customizations are bundled in with the application package itself.
+The Aquamacs distribution of Emacs is released under the [[http://www.gnu.org/copyleft/gpl.html][GNU General Public License.]]  Source code for the base build is a branch of GNU Emacs. Most customizations are bundled in with the application package itself.
 
 * Is Aquamacs a fork of GNU Emacs?
-  :PROPERTIES:
-  :CUSTOM_ID: is-aquamacs-a-fork-of-gnu-emacs
-  :END:
-Aquamacs is a large-scale customization effort to make Emacs more
-user-friendly, particularily for users on modern, GUI-based operating
-systems. Through continuous development over more than fifteen years,
-Aquamacs has become a distinct application. While you could see Aquamacs
-as a friendly fork, please consider this: /Aquamacs uses the same
-code-base as GNU Emacs/. As GNU Emacs evolves, so does Aquamacs. We keep
-our code-base synced by merging from the GNU Emacs development branch.
-/Aquamacs contributes back to the GNU Emacs project./ Selected changes
-that were developed for and within Aquamacs are being submitted back to
-the GNU Emacs project (e.g., bug reporting and mail sending functions,
-mailclient.el). Numerous bugs have been reported through the development
-of Aquamacs, and we have successfully lobbied for better support of many
-things relevant to Mac users and GNU/Linux users alike, for instance
-soft word wrapping. So, technically speaking, Aquamacs is a downstream
-project, developing a distribution of GNU Emacs.
+:PROPERTIES:
+:CUSTOM_ID: is-aquamacs-a-fork-of-gnu-emacs
+:END:
+Aquamacs is a large-scale customization effort to make Emacs more user-friendly, particularily for users on modern, GUI-based operating systems. Through continuous development over more than fifteen years, Aquamacs has become a distinct application. While you could see Aquamacs as a friendly fork, please consider this: /Aquamacs uses the same code-base as GNU Emacs/. As GNU Emacs evolves, so does Aquamacs. We keep our code synced by merging from the GNU Emacs development branch.  /Aquamacs contributes back to the GNU Emacs project./ Selected changes that were developed for and within Aquamacs are being submitted back to the GNU Emacs project (e.g., bug reporting and mail sending functions, mailclient.el). Numerous bugs have been reported through the development of Aquamacs, and we have successfully lobbied for better support of many things relevant to Mac users and GNU/Linux users alike, such as soft word wrapping. Technically speaking, Aquamacs is a downstream project, developing a distribution of GNU Emacs.
