@@ -1,7 +1,7 @@
 #+TITLE: Release of Aquamacs 4 alpha 2
 #+URL: /aquamacs-4-alpha
 
-The second alpha release of Aquamacs 4 ("alpha 2") is now available ([[https://aquamacs.s3.us-east-2.amazonaws.com/Aquamacs-alpha2.app.zip][download]]), and these are the release notes for it, as of April 2026.
+The second alpha release of Aquamacs 4 ("alpha 2") is now available ([[https://aquamacs.s3.us-east-2.amazonaws.com/Aquamacs-alpha2.zip][download]]), and these are the release notes for it, as of April 2026.
 
 Aquamacs 4 is a big jump in the underlying version of Emacs, with little change in the Aquamacs-specific aspects that differ from Emacs. This alpha2 version is based on Emacs version 29.4. This version is called "alpha2" because there was previous alpha-level release, but it required more work before even a broader alpha releas was possible.
 
